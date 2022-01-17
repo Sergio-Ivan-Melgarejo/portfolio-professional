@@ -7,26 +7,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css" />
   <title>Portfolio</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/757be4cedc.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="dark">
+  <!-- header -->
   <header class="header">
     <div class="switches">
       <div id="toggle-theme" class="toggle-theme">
-        <img id="toggle-icon" src="assets/icons/moon.svg" alt="Icon theme" class="toggle-theme__icon">
-        <p id="toggle-text" class="toggle-thme__text">Dark Mode</p>
+        <img id="toggle-icon" src="assets/icons/sun.svg" alt="Icon theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-thme__text">Light Mode</p>
       </div>
     </div>
     <div id="toggle-colors" class="colors">
       <div data-color="hsl(2, 84%, 56%)" class="colors__item colors_item--red"></div>
-      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors_item--blue"></div>
+      <div data-color="hsl(24, 84%, 56%)" class="colors__item colors_item--orange"></div>
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors_item--yellow"></div>
       <div data-color="hsl(150, 84%, 56%)" class="colors__item colors_item--green"></div>
-      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors_item--orange"></div>
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors_item--blue"></div>
       <div data-color="hsl(278, 84%, 56%)" class="colors__item colors_item--purple"></div>
-      <div data-color="hsl(0, 0%, 90%)" class="colors__item colors_item--white"></div>
     </div>
   </header>
-  <h1 class="title">My Portfolio</h1>
+
+  <!-- main -->
+  <main class="main">
+    <section class="column column--left">
+      <!-- Profile Card -->
+      <article class="card card-profile">
+        <div class="card__image-container">
+          <img class="card__img-perfil" src="./assets/images/profile.jpg" alt="Sergio Ivan Melgarejo">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Sergio Ivan Melgarejo</h2>
+          <p class="card__subtitle">Front end Developer</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:sergio.ivan.melgarejo@gmail.com">
+              sergio.ivan.melgarejo@gmail.com
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone icon"></i>
+            <a href="tel:5401153147787">
+              +54-011-5314-7787
+            </a>
+          </div>
+        </div>
+        <div class="card__text">
+          Programador frontend, apasionado por la tecnología y la programación que esta en busca de aprender y crecer en esta área
+        </div>
+      </article>
+    </section>
+  </main>
 
 
 
