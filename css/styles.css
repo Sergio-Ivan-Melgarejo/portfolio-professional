@@ -1,8 +1,9 @@
 :root{
-    --primary-color: hsl(214, 84%, 56%);
-    --text-color: hsl(00, 0%, 31%);
-    --bg-color: hsl(00, 0%, 90%);
-    --bg-card-color: hsl(00, 0%, 90%);
+    --primary-color: hsl(0, 0%, 20%);
+    --text-color: hsl(0, 0%, 31%);
+    --bg-color: hsl(0, 0%, 90%);
+    --bg-card-color: hsl(0, 0%, 98%);
+    --transition: color 0.1s, background-color 0.2s ease-in-out;
 }
 
 *{
@@ -13,18 +14,28 @@ body{
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
+    transition: var(--transition);
 }
 
+/* * dark theme -------------------------- */
+
 body.dark{
-    --primary-color: hsl(0, 0%, 83%);
+    --text-color: hsl(0, 0%, 83%); 
     --bg-color: hsl(0, 0%, 15%);
-    --bg-card-color: hsl(0, 0%, 15%);
+    --bg-card-color: hsl(0, 0%, 20%);
 }
+
+
+/*
+* * -------------------------------------
+        header
+* * -------------------------------------
+*/
 
 .header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 75px;
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
@@ -44,7 +55,7 @@ body.dark{
 }
 
 .toggle-theme__icon{
-    margin-left: .5em;
+    margin-right: .5em;
     width: 20px;
 }
 
@@ -52,3 +63,40 @@ body.dark{
     font-size: .8em;
 }
 
+/* * change colors -------------------------- */
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 120px;
+}
+
+.colors__item{
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--text-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.colors_item--red{--primary-color: hsl(2, 84%, 56%);}
+.colors_item--blue{--primary-color: hsl(214, 84%, 56%);}
+.colors_item--green{--primary-color: hsl(150, 84%, 56%);}
+.colors_item--orange{--primary-color: hsl(46, 84%, 56%);}
+.colors_item--purple{--primary-color: hsl(278, 84%, 56%);}
+.colors_item--white{--primary-color:  hsl(0, 0%, 90%);}
+
+
+/*
+* * -------------------------------------
+        main
+* * -------------------------------------
+*/
+
+.title{
+    text-align: center;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
