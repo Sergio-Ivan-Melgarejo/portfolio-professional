@@ -9,7 +9,7 @@ const rootStyle = document.documentElement.style;
 
 toggleTheme.addEventListener("click",()=>{
     document.body.classList.toggle("dark");
-    if(toggleIcon.src.includes("moon.svg")){
+    if(toggleIcon.src.includes("sun.svg")){
         toggleIcon.src = "assets/icons/moon.svg";
         toggleText.textContent = "Dark Mode";
     }
@@ -20,6 +20,5 @@ toggleTheme.addEventListener("click",()=>{
 })
 
 toggleColors.addEventListener("click",(e)=>{
-    console.log(e.target.dataset.color)
     rootStyle.setProperty("--primary-color", e.target.dataset.color);
 })

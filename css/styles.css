@@ -1,9 +1,9 @@
 :root{
-    --primary-color: hsl(278, 84%, 56%);
+    --primary-color: hsl(2, 84%, 56%);
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
-    --transition: color 0.1s, background-color 0.2s ease-in-out;
+    --transition: color 0.2s, background-color 0.3s ease-in-out;
     --border-radius: .4em;
     --skills-bar-length: 0%;
 }
@@ -15,10 +15,21 @@
 a{
     text-decoration: none;
     color: var(--primary-color);
+    opacity: .7;
+    transition: opacity 350ms;
+}
+
+a:hover{
+    opacity: 1;
 }
 
 img{
     width: 100%;
+    display: block;
+}
+
+.no-margin{
+    margin: 0;
 }
 
 body{
@@ -90,6 +101,11 @@ body.dark{
     border: 1px solid var(--text-color);
     background-color: var(--primary-color);
     cursor: pointer;
+    opacity: .7;
+}
+
+.colors__item:hover{
+    opacity: 1;
 }
 
 .colors_item--red{--primary-color: hsl(2, 84%, 56%);}
@@ -140,14 +156,20 @@ body.dark{
 /* * card perfil -------------------------- */
 
 .card__image-container{
-    min-width: 320px;
-    border-radius: var(--border-radius);
-    max-height: 420px;
     overflow: hidden;
+    max-height: 420px;
+    border-radius: var(--border-radius);
 }
 
 .card__img-perfil{
-    object-position: 0 -50px;
+    max-width: 420px;
+    max-height: 420px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    margin: auto;
+    border-radius: var(--border-radius);
 }
 
 .card__header{
@@ -164,14 +186,19 @@ body.dark{
 }
 
 .card__link{
-    margin: 0 0 .5em .5em;
+    margin: 0 0 .5em 0;
+    display: flex;
+}
+
+.card__link a{
+    margin-left: .5em;
 }
 
 .card__text{
     font-size: .9em;
     opacity: .6;
     line-height: 1.5em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 /* * Skills -------------------------- */
@@ -199,6 +226,7 @@ body.dark{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
+    gap: 10px;
 }
 
 .skills__tech{
@@ -248,4 +276,43 @@ body.dark{
         transform: translateX(var(--skills-bar-length));
         opacity: 1;
     }
+}
+
+/* * Experience -------------------------- */
+
+.experience{
+    display: flex;
+    align-items: start;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    position: relative;
+}
+
+.card__title{
+    margin-bottom: .5em;
+    opacity: .9;
+}
+
+.experience__image{
+    opacity: .2;
+    color: var(--primary-color);
+    font-size: 2.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.experience__info{
+    z-index: 10;
+}
+
+.experience__job{
+    color: var(--primary-color);
+}
+
+.experience__description{
+    opacity: .6
 }
