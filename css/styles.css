@@ -3,7 +3,7 @@
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
-    --transition: color 0.2s, background-color 0.3s ease-in-out;
+    --transition: color .2s, background-color .3s ease-in-out;
     --border-radius: .4em;
     --skills-bar-length: 0%;
 }
@@ -15,12 +15,6 @@
 a{
     text-decoration: none;
     color: var(--primary-color);
-    opacity: .7;
-    transition: opacity 350ms;
-}
-
-a:hover{
-    opacity: 1;
 }
 
 img{
@@ -145,6 +139,13 @@ body.dark{
     }
 }
 
+/* @media screen and (min-width:720px) and (max-width:1220px) {
+    .column--right{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,min-content);
+    }
+} */
+
 /* * cards -------------------------- */
 
 .card{
@@ -199,6 +200,7 @@ body.dark{
     opacity: .6;
     line-height: 1.5em;
     margin-top: 1em;
+    max-width: 600px;
 }
 
 /* * Skills -------------------------- */
@@ -315,4 +317,71 @@ body.dark{
 
 .experience__description{
     opacity: .6
+}
+
+/* * Project -------------------------- */
+
+@media screen and (min-width:720px) {     
+    .card--project{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column:1 / -1;
+        gap: 1em;
+    }
+}
+
+.project{
+    padding: .5em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.project__tags{
+    display: flex;
+    gap: 1em;
+    font-size: .8em;
+    margin-bottom: 1em;
+}
+
+.project__tag{
+    background-color: var(--primary-color);
+    padding: .5em 1em;
+    border-radius: var(--border-radius);
+    color: var(--bg-color);
+}
+
+.card__container{
+    margin: auto auto auto 0;
+    font-size: clamp(14px, 2vw, 32px);
+}
+
+.buttons{
+    display: flex;
+    gap: 1em;
+    margin-left: auto;
+}
+
+.button{
+    text-align: center;
+    padding: 1em 2em;
+    border-radius: var(--border-radius);
+    transition: var(--transition), box-shadow .3s;
+}
+
+.button--primary{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.button--ghost{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.button--primary:hover,
+.button--ghost:hover{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
 }
