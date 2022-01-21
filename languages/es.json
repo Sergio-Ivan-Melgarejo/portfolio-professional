@@ -1,0 +1,28 @@
+{
+    "profile": {
+        "title": "Sergio Ivan Melgarejo",
+        "subtitle": "Desarrollador Front end",
+        "description": "Programador, apasionado por la tecnología y la programación que esta en busca de aprender y crecer en esta área."
+    },
+    "experience": {
+        "title":"Experiencias",
+        "1-title": "Desarrollador Front End / Desarrollador Web",
+        "1-dates": "Jun 2021 - Actualmente",
+        "1-description": "programador autodidacta, practicas online y presencial."
+    },
+    "hobbies": {
+        "title":"Pasatiempo",
+        "1-title": "Lectura",
+        "1-description": "En mi tiempo libre paso tiempo leyendo libros.",
+        "2-title": "Correr",
+        "2-description": "Otros de mi pasatiempos es correr en las plazas."
+    },
+    "skills": {
+        "2-title": "Habilidades Personales",
+        "spanish": "Español",
+        "english": "Ingles",
+        "3-title": "Herramientas",
+        "dates": "Años de experiencias"
+    },
+    "project": {}
+}

@@ -16,11 +16,21 @@
   <!-- header -->
   <header class="header">
     <div class="switches">
-      <div id="toggle-theme" class="toggle-theme">
+      <div id="toggle-theme" class="toggle-theme" data-language="en">
         <img id="toggle-icon" src="assets/icons/sun.svg" alt="Icon theme" class="toggle-theme__icon">
         <p id="toggle-text" class="toggle-thme__text">Light Mode</p>
       </div>
     </div>
+
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="./assets/icons/es.svg" alt="Spain flag">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="./assets/icons/us.svg" alt="the United State flag">
+      </div>
+    </div>
+
     <div id="toggle-colors" class="colors">
       <div data-color="hsl(2, 84%, 56%)" class="colors__item colors_item--red"></div>
       <div data-color="hsl(24, 84%, 56%)" class="colors__item colors_item--orange"></div>
@@ -43,7 +53,7 @@
         </div>
         <div class="card__header">
           <h2 class="card__title">Sergio Ivan Melgarejo</h2>
-          <p class="card__subtitle">Front end Developer</p>
+          <p class="card__subtitle" data-section="profile" data-value="subtitle">Front end Developer</p>
         </div>
         <div class="card__body">
           <div class="card__link">
@@ -59,40 +69,40 @@
             </a>
           </div>
         </div>
-        <p class="card__text">
-          Frontend programmer, passionate about technology and programming who is looking to learn and grow in this area.
+        <p class="card__text" data-section="profile" data-value="description">
+          Programmer, passionate about technology and programming who is looking to learn and grow in this area.
         </p>
       </article>      
       <!-- Experience -->
       <article class="card card--expeience">
-        <h2 class="card__title">Experiences</h2>
+        <h2 class="card__title" data-section="experience" data-value="title">Experiences</h2>
         <div class="experience">
           <i class="fas fa-code experience__image"></i>
           <div class="experience__info">
-            <p class="experience__time no-margin">
+            <p class="experience__time no-margin" data-section="experience" data-value="1-dates">
               Jun 2021 - Current
             </p>
-            <h3 class="experience__job">Front End Developer / Web Developer</h3>
-            <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim corrupti deserunt laboriosam odio. Sequi at vitae possimus, expedita, quae aliquid autem eum numquam in consectetur facere placeat beatae impedit.</p>
+            <h3 class="experience__job" data-section="experience" data-value="1-title">Front End Developer / Web Developer</h3>
+            <p class="experience__description" data-section="experience" data-value="1-description">self-taught programmer, online and face-to-face practices.</p>
           </div>
         </div>
       </article>
       <!-- Hobbies -->
       <div class="card card--hobbies">
-        <h2 class="card__title">Hobbies</h2>
+        <h2 class="card__title" data-section="hobbies" data-value="title">Hobbies</h2>
         <div class="card__image-container">
           <img src="./assets/images/reading.jpg" alt="open book in beach">
         </div>
-        <h3 class="hobbie__title">Reading</h3>
-        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi aperiam obcaecati vel neque corporis atque voluptatem rem culpa. Veniam, minima animi labore in delectus voluptas atque consequatur recusandae quisquam!</p>
+        <h3 class="hobbie__title" data-section="hobbies" data-value="1-title">Reading</h3>
+        <p class="card__text" data-section="hobbies" data-value="1-description">In my spare time I spend time reading books.</p>
       </div>
       <div class="card card--hobbies">
-        <h2 class="card__title">Hobbies</h2>
+        <h2 class="card__title" data-section="hobbies" data-value="title">Hobbies</h2>
         <div class="card__image-container">
           <img src="./assets/images/running.jpg" alt="a man running on the street">
         </div>
-        <h3 class="hobbie__title">Running</h3>
-        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi aperiam obcaecati vel neque corporis atque voluptatem rem culpa. Veniam, minima animi labore in delectus voluptas atque consequatur recusandae quisquam!</p>
+        <h3 class="hobbie__title" data-section="hobbies" data-value="2-title">Running</h3>
+        <p class="card__text" data-section="hobbies" data-value="2-description">Another of my hobbies is running in the squares.</p>
       </div>
     </section>
 
@@ -102,7 +112,7 @@
       <article class="card">
         <h2 class="card__title">Front End</h2>
         <div class="skill__years-container">
-          <small class="card__subtitle">Years of experience</small>
+          <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
           <div class="skills__header">
             <span class="skills__start-level">0</span>
             <span class="skills__start-level">1</span>
@@ -145,23 +155,23 @@
       </article>
       <!-- Person Skills -->
       <article class="card">
-        <h2 class="card__title">Person Skills</h2>
+        <h2 class="card__title" data-section="skills" data-value="2-title">Person Skills</h2>
         <div class="skills">
           <div class="skills__item">
-            <p class="skills__tech">English</p>
+            <p class="skills__tech" data-section="skills" data-value="english">English</p>
             <div class="skills__bar skills__bar--40"></div>
           </div>
           <div class="skills__item">
-            <p class="skills__tech">Spanish</p>
+            <p class="skills__tech" data-section="skills" data-value="spanish">Spanish</p>
             <div class="skills__bar skills__bar--100"></div>
           </div>
         </div>
       </article>
       <!-- tool Skills -->
       <article class="card">
-        <h2 class="card__title">Tool</h2>
+        <h2 class="card__title" data-section="skills" data-value="3-title">Tool</h2>
         <div class="skill__years-container">
-          <small class="card__subtitle">Years of experience</small>
+          <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
           <div class="skills__header">
             <span class="skills__start-level">0</span>
             <span class="skills__start-level">1</span>
@@ -226,14 +236,41 @@
             <span class="project__tag">#SASS</span>
             <span class="project__tag">#Bootstrap</span>
           </div>
+         <div class="card__container">
           <h2 class="card__title">Landing Page</h2>
           <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum animi earum praesentium autem, quos quod consequatur, corrupti accusamus aspernatur nihil cumque modi perferendis magnam magni ducimus! Architecto cum facere veritatis. lorem</p>
+        </div>
           <div class="buttons">
             <a href="#" class="button button--primary">Demo</a>
             <a href="#" class="button button--ghost">Code</a>
           </div>
         </div>
       </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="./assets/images/pexels-lisa-fotios-811587.jpg" alt="???">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#Resposive</span>
+            <span class="project__tag">#API</span>
+            <span class="project__tag">#SASS</span>
+            <span class="project__tag">#Bootstrap</span>
+          </div>
+         <div class="card__container">
+          <h2 class="card__title">Landing Page</h2>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum animi earum praesentium autem, quos quod consequatur, corrupti accusamus aspernatur nihil cumque modi perferendis magnam magni ducimus! Architecto cum facere veritatis. lorem</p>
+        </div>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="#" class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+
     </section>
   </main>
 
