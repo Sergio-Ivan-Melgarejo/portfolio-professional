@@ -9,7 +9,7 @@
 }
 
 *{
-    box-sizing: border-box;;
+    box-sizing: border-box;
 }
 
 a{
@@ -50,12 +50,12 @@ body.dark{
 
 /* * dark theme -------------------------- */
 
-
 @media screen and (max-width:720px) {
     .card--hobbies{
         display: none;
     }
 }
+
 /*
 * * -------------------------------------
         header
@@ -69,6 +69,8 @@ body.dark{
     height: 75px;
     padding: 0 .5em;
     background-color: var(--bg-card-color);
+    max-width: 1600px;
+    margin: auto;
 }
 
 @media screen and (min-width:720px) {
@@ -165,6 +167,8 @@ body.dark{
     display: grid;
     padding: 1em;
     gap: 1em;
+    max-width: 1600px;
+    margin: auto;
 }
 
 @media screen and (min-width:720px) {
@@ -179,9 +183,17 @@ body.dark{
     flex-direction: column;
 }
 
+.box-1, .box-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
 @media screen and (min-width:720px) {
     .column--right{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content 1fr;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -230,7 +242,7 @@ body.dark{
 }
 
 .card__title{
-    margin: 0;
+    margin: 0 0 .5em;
     font-size: 1.2em;
 }
 
@@ -246,13 +258,13 @@ body.dark{
 .card__link a{
     margin-left: .5em;
 }
-
+/* 
 .card__text{
     font-size: .9em;
     opacity: .6;
     line-height: 1.5em;
     margin-top: 1em;
-}
+} */
 
 /* * Skills -------------------------- */
 
@@ -331,6 +343,12 @@ body.dark{
     }
 }
 
+@media screen and (max-width:720px){
+    .box-1 .card{
+        flex-grow: 1;
+    }
+}
+
 /* * Experience -------------------------- */
 
 .experience{
@@ -342,11 +360,6 @@ body.dark{
     border-radius: var(--border-radius);
     transition: var(--transition);
     position: relative;
-}
-
-.card__title{
-    margin-bottom: .5em;
-    opacity: .9;
 }
 
 .experience__image{
@@ -372,10 +385,17 @@ body.dark{
 
 /* * Project -------------------------- */
 
+.card--project{
+    display: flex;
+    /* grid-template-rows: 220px 1fr; */
+}
+
+.card--project .card__title{
+    margin: 1em auto;
+}
+
 @media screen and (min-width:720px) {     
     .card--project{
-        display: flex;
-        flex-wrap: wrap;
         gap: 1em;
     }
     .card__image-container{
@@ -393,6 +413,8 @@ body.dark{
     padding: .5em 1em;
     display: flex;
     flex-direction: column;
+    gap: 1em;
+    justify-content: space-between;
 }
 
 .project__tags{
@@ -400,7 +422,6 @@ body.dark{
     flex-wrap: wrap;
     gap: 1em;
     font-size: .8em;
-    margin-bottom: 1em;
 }
 
 .project__tag{
@@ -419,6 +440,7 @@ body.dark{
     display: flex;
     gap: 1em;
     margin-left: auto;
+    width: 100%;
 }
 
 .button{
@@ -426,6 +448,10 @@ body.dark{
     padding: 1em 2em;
     border-radius: var(--border-radius);
     transition: var(--transition), box-shadow .3s;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border: none;
 }
 
 .button--primary{
@@ -444,6 +470,52 @@ body.dark{
     background-color: var(--bg-color);
     color: var(--primary-color);
     box-shadow: 0 0 10px var(--primary-color);
+}
+
+/* * container--project -------------------------- */
+
+.container--project{
+    width: 100%;
+    height: 100%;
+}
+
+.box-2{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-2 .card__image-container{
+    height: 220px;
+    width: 100%;
+    max-width: none;
+    display: block;
+}
+
+.box-2 .card__image-container img{
+    width: 100%;
+}
+
+.box-2 .card{
+    margin: 0 auto auto;
+}
+
+.container--buttons{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color);
+    padding: 1em;
+}
+
+@media screen and (max-width:720px){
+    .box-2 .card{
+        width: 100%;
+    }
+    .container--buttons{
+        left: 0;
+        padding: 1em;
+        background-color: var(--bg-color);
+    }
 }
 
 /* * footer -------------------------- */

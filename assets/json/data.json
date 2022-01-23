@@ -1,0 +1,402 @@
+[
+    {
+        "type": "Front Mentor",
+        "data": {
+            "title": "Testimonials grid section solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-01/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-01/",
+            "code": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-01",
+            "tags": ["HTML", "CSS"]
+        }
+    },
+    {
+        "type": "Front Mentor",
+        "data": {
+            "title": "Profile card component solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-02/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-02/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-02",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Stats preview card component solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-03/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-03/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-03",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "FAQ accordion card solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-04/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-04/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-04",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Tip calculator app solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-05/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-05/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-05",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "MI APLICACION PARA FINANZAS",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/MiApp-Practica-01/raw/main/imagenes/1.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/MiApp-Practica-01/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/MiApp-Practica-01",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Projectos - Juegos",
+        "data": {
+            "title": "Javascript Simple Quiz",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Javascript-Simple-Quiz/blob/main/screenshot.png?raw=true",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Javascript-Simple-Quiz/index.html",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Javascript-Simple-Quiz",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Time tracking dashboard solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-06/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-06/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-06",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Ping coming soon page solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-07/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-07/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-07",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Order summary card solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-08/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-08/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-08",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Single price grid component",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-10/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-10/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-10",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "3-column preview card component",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-11/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-11/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-11",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Huddle landing page with single introductory section",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-12/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-12/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-12",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Base Apparel coming soon page",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-13/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-13/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-13",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Article preview component",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-14/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-14/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-14",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Four card feature section",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-16/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-16/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-16",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Social proof section",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-17/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-17/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-17",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Fylo data storage component",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-18/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-18/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-18",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Intro component with sign up form",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-19/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-19/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-19",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Clipboard landing page",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-20/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-20/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-20",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Sunnyside agency landing page",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-21/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-21/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-21",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Efecto Cristal",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Only-CSS-Glass-Effect/raw/main/img/1.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Only-CSS-Glass-Effect/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Only-CSS-Glass-Effect",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Texto Animado",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Texto-Animado-Javascript/blob/main/img/thumb.png?raw=true",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Texto-Animado-Javascript/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Texto-Animado-Javascript",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "NFT preview card component",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-22/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-22/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-22",
+            "tags": ["HTML","CSS"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "REST Countries API with color theme switcher",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-23/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23",
+            "tags": ["HTML","CSS","JAVASCRIPT","API"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Formulario Dinámico para Tarjeta de Crédito",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Formulario-Dinamico-Tarjeta-de-Credito/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Formulario-Dinamico-Tarjeta-de-Credito/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Formulario-Dinamico-Tarjeta-de-Credito",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Testimonial cards",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/mi-primer-proyecto-bootstrap5-sass/raw/main/images/screencapture.png",
+            "demo": "https://mi-primer-proyecto-bootstrap5-sass.netlify.app/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/mi-primer-proyecto-bootstrap5-sass",
+            "tags": ["HTML","CSS","Bootstrap","Sass","PurgeCSS"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Login con Bootstrap 5",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login-responsivo/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-login-responsivo/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login-responsivo",
+            "tags": ["HTML","CSS","Bootstrap"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Clon de Instagram con Bootstrap 5",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-clon-instagram/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-clon-instagram/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-clon-instagram",
+            "tags": ["HTML","CSS","Bootstrap"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Pagina web ExpertD.",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-web-expertd/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-web-expertd/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-web-expertd",
+            "tags": ["HTML","CSS","JAVASCRIPT","Bootstrap","Typewriter"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "CRUD APP con REACT",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-app-crud/raw/gh-pages/static/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/react-app-crud/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-app-crud",
+            "tags": ["HTML","CSS","JAVASCRIPT","React"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Banner de Cookies.",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/aviso-cookies/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/aviso-cookies/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/aviso-cookies",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Validar Formularios con Javascript y Expresiones Regulares",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/validacion-formularios/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/validacion-formularios/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/validacion-formularios",
+            "tags": ["HTML","CSS","JAVASCRIPT"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Generador de Contraseñas con React",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-generador-password/raw/gh-pages/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/react-generador-password/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-generador-password",
+            "tags": ["HTML","CSS","JAVASCRIPT","react"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Pagina web con ParticlesJS",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/pagina-web-particulas-js/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/pagina-web-particulas-js/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/pagina-web-particulas-js",
+            "tags": ["HTML","CSS","JAVASCRIPT","ParticlesJS"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "PRIMER SITIO WEB CON SASS",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/sass-landing-page/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/sass-landing-page/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/sass-landing-page",
+            "tags": ["HTML","CSS","Sass"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "SITIO WEB CON SASS",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/sass-primer-sitio-web/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/sass-primer-sitio-web/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/sass-primer-sitio-web",
+            "tags": ["HTML","CSS","Sass"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Nintendo Animal Crossing",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-website-nintendo/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo",
+            "tags": ["HTML","CSS","bootstrap"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Login con Bootstrap 5",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-login/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login",
+            "tags": ["HTML","CSS","bootstrap"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Primer Portafolio",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Portafolio/raw/main/imagenes/screenshot/screencapture1.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Portafolio/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Portafolio",
+            "tags": ["HTML","CSS","Javascript"]
+        }
+    }
+]
