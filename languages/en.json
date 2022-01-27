@@ -24,5 +24,8 @@
         "3-title": "Tools",
         "dates": "Years of experience"
     },
-    "project": {}
+    "project": {
+        "button":"Code",
+        "more-10":"Top up 10 more"
+    }
 }

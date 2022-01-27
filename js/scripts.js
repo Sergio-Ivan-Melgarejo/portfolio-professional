@@ -9,7 +9,12 @@ const rootStyle = document.documentElement.style;
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll(`[data-section]`);
 
-const containerProject = document.getElementById("card--project");
+const containerProject = document.getElementById("container--projects");
+
+let dataPages;
+let nums = 0;
+
+const moreTen = document.getElementById("more-10");
 
 const changeLanguage = async (language) =>{
     const requestJson = await fetch(`./languages/${language}.json`);
@@ -24,12 +29,15 @@ const changeLanguage = async (language) =>{
     }
 }
 
-const createCards = async () =>{
-    const data = await fetch("../assets/json/data.json");
-    const json = await data.json();
-    json.reverse();
+const createCard = (elements, num1, num2) =>{
+    // show 10
+    for(let i = num1 ; i < num2 ;i++){
 
-    json.forEach(element => {
+        if(!elements[i]){
+            moreTen.parentNode.removeChild(moreTen);
+            return;
+        };
+
         const card = document.createElement("article");
         const containerIMG = document.createElement("div");
         const img = document.createElement("img");
@@ -53,7 +61,7 @@ const createCards = async () =>{
         button2.classList.add("button");
         button2.classList.add("button--ghost");
 
-        element.data.tags.forEach(ele=>{
+        elements[i].data.tags.forEach(ele=>{
             const span = document.createElement("span");
             span.classList.add("project__tag");
             
@@ -62,11 +70,11 @@ const createCards = async () =>{
             projectTags.appendChild(span);
         })
 
-        img.src = element.data.image;
+        img.src = elements[i].data.image;
         containerIMG.appendChild(img);
         card.appendChild(containerIMG);
 
-        h2.textContent = element.data.title;
+        h2.textContent = elements[i].data.title;
         project.appendChild(h2);
 
         project.appendChild(projectTags);
@@ -75,8 +83,9 @@ const createCards = async () =>{
         button2.textContent="Code";
         button1.target="__black";
         button2.target="__black";
-        button1.href=element.data.demo;
-        button2.href=element.data.code;
+        button1.href=elements[i].data.demo;
+        button2.href=elements[i].data.code;
+
         buttons.appendChild(button1);
         buttons.appendChild(button2);
         project.appendChild(buttons);
@@ -84,40 +93,54 @@ const createCards = async () =>{
         card.appendChild(project);
 
         containerProject.appendChild(card);
-    });
+    }
 }
 
-flagsElement.addEventListener("click",(e)=>{
-    let language = e.target.parentElement.dataset.language;
+const showProjects = async () =>{
+    const data = await fetch("../assets/json/data.json");
+    const json = await data.json();
+    dataPages = json.reverse();
 
-    if(language) changeLanguage(language);
-
-    if (language == "es"){
-        toggleTheme.dataset.lenguage = "en";
-        toggleText.textContent == "Dark Mode" ? toggleText.textContent = "Modo Noche": toggleText.textContent = "Modo Dia";
-    }
-    else {
-        toggleTheme.dataset.lenguage = "en";
-        toggleText.textContent == "Modo Noche" ? toggleText.textContent = "Dark Mode": toggleText.textContent = "Light Mode";
-    }
-})
-
-toggleTheme.addEventListener("click",()=>{
-    document.body.classList.toggle("dark");
-    if(toggleIcon.src.includes("sun.svg")){
-        toggleIcon.src = "assets/icons/moon.svg";
-        toggleText.textContent == "Light Mode" ? toggleText.textContent = "Dark Mode" : toggleText.textContent ="Modo Noche";
-    }
-    else{
-        toggleIcon.src = "assets/icons/sun.svg";
-        toggleText.textContent == "Dark Mode" ? toggleText.textContent = "Light Mode" : toggleText.textContent ="Modo Dia";
-    }
-})
-
-toggleColors.addEventListener("click",(e)=>{
-    rootStyle.setProperty("--primary-color", e.target.dataset.color);
-})
+    // crea card de project
+    createCard(dataPages, 0, 10);
+}
 
 addEventListener("DOMContentLoaded",()=>{
-    createCards();
+    flagsElement.addEventListener("click",(e)=>{
+        let language = e.target.parentElement.dataset.language;
+
+        if(language) changeLanguage(language);
+
+        if (language == "es"){
+            toggleTheme.dataset.lenguage = "en";
+            toggleText.textContent == "Dark Mode" ? toggleText.textContent = "Modo Noche": toggleText.textContent = "Modo Dia";
+        }
+        else {
+            toggleTheme.dataset.lenguage = "en";
+            toggleText.textContent == "Modo Noche" ? toggleText.textContent = "Dark Mode": toggleText.textContent = "Light Mode";
+        }
+    })
+
+    toggleTheme.addEventListener("click",()=>{
+        document.body.classList.toggle("dark");
+        if(toggleIcon.src.includes("sun.svg")){
+            toggleIcon.src = "assets/icons/moon.svg";
+            toggleText.textContent == "Light Mode" ? toggleText.textContent = "Dark Mode" : toggleText.textContent ="Modo Noche";
+        }
+        else{
+            toggleIcon.src = "assets/icons/sun.svg";
+            toggleText.textContent == "Dark Mode" ? toggleText.textContent = "Light Mode" : toggleText.textContent ="Modo Dia";
+        }
+    })
+
+    toggleColors.addEventListener("click",(e)=>{
+        rootStyle.setProperty("--primary-color", e.target.dataset.color);
+    })
+
+    moreTen.addEventListener("click",()=>{
+        nums += 1;
+        createCard(dataPages,nums * 10, (nums * 10 + 10));
+    })
+
+    showProjects();
 })

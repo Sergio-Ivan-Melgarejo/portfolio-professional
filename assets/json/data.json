@@ -376,7 +376,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-website-nintendo/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo",
-            "tags": ["HTML","CSS","bootstrap"]
+            "tags": ["HTML","CSS","bootstrap","responsive"]
         }
     },
     {
@@ -396,7 +396,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Portafolio/raw/main/imagenes/screenshot/screencapture1.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/Portafolio/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Portafolio",
-            "tags": ["HTML","CSS","Javascript"]
+            "tags": ["HTML","CSS","Javascript","responsive"]
         }
     }
 ]
