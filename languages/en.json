@@ -12,6 +12,7 @@
     },
     "hobbies": {
         "title":"Hobbies",
+        "0-description": "Most of my free time I like to do the Front Mentor challenges.",
         "1-title": "Reading",
         "1-description": "In my spare time I spend time reading books.",
         "2-title": "Running",

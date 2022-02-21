@@ -12,6 +12,7 @@
     },
     "hobbies": {
         "title":"Pasatiempo",
+        "0-description": "La mayor parte de mi tiempo libre me gusta hacer los desafíos de Front Mentor.",
         "1-title": "Lectura",
         "1-description": "En mi tiempo libre paso tiempo leyendo libros.",
         "2-title": "Correr",

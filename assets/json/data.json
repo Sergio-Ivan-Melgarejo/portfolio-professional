@@ -50,7 +50,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "MI APLICACION PARA FINANZAS",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/MiApp-Practica-01/raw/main/imagenes/1.png",
@@ -210,7 +210,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Efecto Cristal",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Only-CSS-Glass-Effect/raw/main/img/1.png",
@@ -220,7 +220,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Texto Animado",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Texto-Animado-Javascript/blob/main/img/thumb.png?raw=true",
@@ -250,7 +250,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Formulario Dinámico para Tarjeta de Crédito",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Formulario-Dinamico-Tarjeta-de-Credito/raw/main/img/screencapture.png",
@@ -260,7 +260,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Testimonial cards",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/mi-primer-proyecto-bootstrap5-sass/raw/main/images/screencapture.png",
@@ -270,7 +270,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Login con Bootstrap 5",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login-responsivo/raw/main/img/screencapture.png",
@@ -280,7 +280,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Clon de Instagram con Bootstrap 5",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-clon-instagram/raw/main/img/screencapture.png",
@@ -290,7 +290,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Pagina web ExpertD.",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-web-expertd/raw/main/img/screencapture.png",
@@ -300,7 +300,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "CRUD APP con REACT",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-app-crud/raw/gh-pages/static/img/screencapture.png",
@@ -310,7 +310,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Banner de Cookies.",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/aviso-cookies/raw/main/img/screencapture.png",
@@ -320,7 +320,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Validar Formularios con Javascript y Expresiones Regulares",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/validacion-formularios/raw/main/img/screencapture.png",
@@ -340,7 +340,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "Pagina web con ParticlesJS",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/pagina-web-particulas-js/raw/main/img/screencapture.png",
@@ -350,7 +350,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "PRIMER SITIO WEB CON SASS",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/sass-landing-page/raw/main/img/screencapture.png",
@@ -360,7 +360,7 @@
         }
     },
     {
-        "tipo": "Projectos",
+        "tipo": "Proyect",
         "data": {
             "title": "SITIO WEB CON SASS",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/sass-primer-sitio-web/raw/main/img/screencapture.png",
@@ -397,6 +397,66 @@
             "demo": "https://sergio-ivan-melgarejo.github.io/Portafolio/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Portafolio",
             "tags": ["HTML","CSS","Javascript","responsive"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "WORDLE",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-wordle/raw/gh-pages/static/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/react-wordle/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-wordle",
+            "tags": ["HTML","CSS","responsive","react","Sass","Free Dictionary API."]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
+            "title": "React Amozon",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-amozon/raw/gh-pages/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/react-amozon/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-amozon",
+            "tags": ["HTML","CSS","responsive","react"]
+        }
+    },
+    {
+        "tipo": "Frontend Mentor",
+        "data": {
+            "title": "Blogr landing page solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-25/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-25/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-25",
+            "tags": ["HTML","CSS","javascript","responsive"]
+        }
+    },
+    {
+        "tipo": "Frontend Mentor",
+        "data": {
+            "title": "Space tourism website solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-15/raw/main/preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-15/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-15",
+            "tags": ["HTML","CSS","javascript","responsive","multi-page","Fetch","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
+            "title": "APP Giffy v1.1",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-giffy/raw/gh-pages/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/react-giffy/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
+            "tags": ["HTML","CSS","react","Giphy Developers API","bootstrap 5","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Frontend Mentor",
+        "data": {
+            "title": "Rock, Paper, Scissors",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/front-mentor-26/raw/gh-pages/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/front-mentor-26/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/front-mentor-26",
+            "tags": ["HTML","CSS","react","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
         }
     }
 ]
