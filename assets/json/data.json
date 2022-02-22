@@ -240,16 +240,6 @@
         }
     },
     {
-        "tipo": "Front Mentor",
-        "data": {
-            "title": "REST Countries API with color theme switcher",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23/raw/main/design/desktop-preview.jpg",
-            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-23/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23",
-            "tags": ["HTML","CSS","JAVASCRIPT","API"]
-        }
-    },
-    {
         "tipo": "Proyect",
         "data": {
             "title": "Formulario Dinámico para Tarjeta de Crédito",
@@ -306,7 +296,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-app-crud/raw/gh-pages/static/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-app-crud/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-app-crud",
-            "tags": ["HTML","CSS","JAVASCRIPT","React"]
+            "tags": ["HTML","CSS","responsive","Flexbox","CSS Grid","React"]
         }
     },
     {
@@ -316,7 +306,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/aviso-cookies/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/aviso-cookies/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/aviso-cookies",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","responsive","Flexbox","CSS Grid","Mobile-first workflow"]
         }
     },
     {
@@ -326,17 +316,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/validacion-formularios/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/validacion-formularios/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/validacion-formularios",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
-        }
-    },
-    {
-        "tipo": "Projectos",
-        "data": {
-            "title": "Generador de Contraseñas con React",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-generador-password/raw/gh-pages/screencapture.png",
-            "demo": "https://sergio-ivan-melgarejo.github.io/react-generador-password/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-generador-password",
-            "tags": ["HTML","CSS","JAVASCRIPT","react"]
+            "tags": ["HTML","CSS","responsive","Flexbox","CSS Grid","Mobile-first workflow","JAVASCRIPT"]
         }
     },
     {
@@ -346,7 +326,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/pagina-web-particulas-js/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/pagina-web-particulas-js/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/pagina-web-particulas-js",
-            "tags": ["HTML","CSS","JAVASCRIPT","ParticlesJS"]
+            "tags": ["HTML","CSS","responsive","Flexbox","JAVASCRIPT","ParticlesJS"]
         }
     },
     {
@@ -356,7 +336,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/sass-landing-page/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/sass-landing-page/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/sass-landing-page",
-            "tags": ["HTML","CSS","Sass"]
+            "tags": ["HTML","CSS","responsive","Mobile-first workflow","CSS Grid","Flexbox","Sass"]
         }
     },
     {
@@ -372,26 +352,6 @@
     {
         "tipo": "Projectos",
         "data": {
-            "title": "Nintendo Animal Crossing",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo/raw/main/img/screencapture.png",
-            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-website-nintendo/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo",
-            "tags": ["HTML","CSS","bootstrap","responsive"]
-        }
-    },
-    {
-        "tipo": "Projectos",
-        "data": {
-            "title": "Login con Bootstrap 5",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login/raw/main/img/screencapture.png",
-            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-login/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login",
-            "tags": ["HTML","CSS","bootstrap"]
-        }
-    },
-    {
-        "tipo": "Projectos",
-        "data": {
             "title": "Primer Portafolio",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Portafolio/raw/main/imagenes/screenshot/screencapture1.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/Portafolio/",
@@ -402,11 +362,31 @@
     {
         "tipo": "Projectos",
         "data": {
-            "title": "WORDLE",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-wordle/raw/gh-pages/static/img/screencapture.png",
-            "demo": "https://sergio-ivan-melgarejo.github.io/react-wordle/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-wordle",
-            "tags": ["HTML","CSS","responsive","react","Sass","Free Dictionary API."]
+            "title": "Generador de Contraseñas con React",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-generador-password/raw/gh-pages/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/react-generador-password/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-generador-password",
+            "tags": ["HTML","CSS","responsive","Flexbox","CSS Grid","Mobile-first workflow","react"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Nintendo Animal Crossing",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-website-nintendo/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-website-nintendo",
+            "tags": ["HTML","CSS","responsive","Mobile-first workflow","bootstrap"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "Login con Bootstrap 5",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login/raw/main/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-login/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login",
+            "tags": ["HTML","CSS","responsive","Mobile-first workflow","bootstrap"]
         }
     },
     {
@@ -416,7 +396,17 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-amozon/raw/gh-pages/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-amozon/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-amozon",
-            "tags": ["HTML","CSS","responsive","react"]
+            "tags": ["HTML","CSS","responsive","react","Flexbox","CSS Grid"]
+        }
+    },
+    {
+        "tipo": "Projectos",
+        "data": {
+            "title": "WORDLE",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-wordle/raw/gh-pages/static/img/screencapture.png",
+            "demo": "https://sergio-ivan-melgarejo.github.io/react-wordle/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-wordle",
+            "tags": ["HTML","CSS","react","Sass","Free Dictionary API.","Flexbox","CSS Grid"]
         }
     },
     {
@@ -426,7 +416,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-25/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-25/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-25",
-            "tags": ["HTML","CSS","javascript","responsive"]
+            "tags": ["HTML","CSS","javascript","responsive","Mobile-first workflow","Flexbox","CSS Grid"]
         }
     },
     {
@@ -447,6 +437,16 @@
             "demo": "https://sergio-ivan-melgarejo.github.io/react-giffy/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
             "tags": ["HTML","CSS","react","Giphy Developers API","bootstrap 5","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "REST Countries API with color theme switcher",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-23/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23",
+            "tags": ["HTML","CSS","JAVASCRIPT","responsive","Mobile-first workflow","CSS Grid","Flexbox","API"]
         }
     },
     {

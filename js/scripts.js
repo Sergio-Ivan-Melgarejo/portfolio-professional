@@ -16,6 +16,21 @@ let nums = 0;
 
 const moreTen = document.getElementById("more-10");
 
+const changeTheme = (theme) =>{
+    if(theme === "light"){
+        toggleIcon.src = "assets/icons/moon.svg";
+        toggleText.textContent == "Light Mode" ? toggleText.textContent = "Dark Mode" : toggleText.textContent ="Modo Noche";
+        document.body.classList.remove("dark");
+    }
+    else{
+        toggleIcon.src = "assets/icons/sun.svg";
+        toggleText.textContent == "Dark Mode" ? toggleText.textContent = "Light Mode" : toggleText.textContent ="Modo Dia";
+        document.body.classList.add("dark");
+    }
+    
+    localStorage.setItem("Portfolio-Theme",theme);
+}
+
 const changeLanguage = async (language) =>{
     const requestJson = await fetch(`./languages/${language}.json`);
     const texts = await requestJson.json();
@@ -27,6 +42,8 @@ const changeLanguage = async (language) =>{
 
         textToChange.innerHTML = texts[section][value];
     }
+
+    localStorage.setItem("Portfolio-Language", language);
 }
 
 const createCard = (elements, num1, num2) =>{
@@ -73,11 +90,10 @@ const createCard = (elements, num1, num2) =>{
         img.src = elements[i].data.image;
         containerIMG.appendChild(img);
         card.appendChild(containerIMG);
+        containerIMG.appendChild(projectTags);
 
         h2.textContent = elements[i].data.title;
         project.appendChild(h2);
-
-        project.appendChild(projectTags);
 
         button1.textContent="Demo";
         button2.textContent="Code";
@@ -122,19 +138,13 @@ addEventListener("DOMContentLoaded",()=>{
     })
 
     toggleTheme.addEventListener("click",()=>{
-        document.body.classList.toggle("dark");
-        if(toggleIcon.src.includes("sun.svg")){
-            toggleIcon.src = "assets/icons/moon.svg";
-            toggleText.textContent == "Light Mode" ? toggleText.textContent = "Dark Mode" : toggleText.textContent ="Modo Noche";
-        }
-        else{
-            toggleIcon.src = "assets/icons/sun.svg";
-            toggleText.textContent == "Dark Mode" ? toggleText.textContent = "Light Mode" : toggleText.textContent ="Modo Dia";
-        }
+        if(document.body.classList.contains("dark")) changeTheme("light");
+        else changeTheme("dark");
     })
 
     toggleColors.addEventListener("click",(e)=>{
         rootStyle.setProperty("--primary-color", e.target.dataset.color);
+        localStorage.setItem("Portfolio-Color", e.target.dataset.color);
     })
 
     moreTen.addEventListener("click",()=>{
@@ -144,3 +154,16 @@ addEventListener("DOMContentLoaded",()=>{
 
     showProjects();
 })
+
+// LocalStorage
+
+const theme = localStorage.getItem("Portfolio-Theme");
+if(!document.body.classList.contains(theme)) changeTheme(theme);
+
+const color = localStorage.getItem("Portfolio-Color");
+rootStyle.setProperty("--primary-color", color);
+
+const language = localStorage.getItem("Portfolio-Language");
+console.log(language)
+if(language !== "en") changeLanguage(language);
+
