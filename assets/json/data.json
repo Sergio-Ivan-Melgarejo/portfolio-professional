@@ -6,7 +6,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-01/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-01/",
             "code": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-01",
-            "tags": ["HTML", "CSS"]
+            "tags": ["HTML", "CSS","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -16,7 +16,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-02/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-02/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-02",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -26,27 +26,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-03/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-03/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-03",
-            "tags": ["HTML","CSS"]
-        }
-    },
-    {
-        "tipo": "Front Mentor",
-        "data": {
-            "title": "FAQ accordion card solution",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-04/raw/main/design/desktop-preview.jpg",
-            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-04/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-04",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
-        }
-    },
-    {
-        "tipo": "Front Mentor",
-        "data": {
-            "title": "Tip calculator app solution",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-05/raw/main/design/desktop-preview.jpg",
-            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-05/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-05",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","Flexbox","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -56,7 +36,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/MiApp-Practica-01/raw/main/imagenes/1.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/MiApp-Practica-01/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/MiApp-Practica-01",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox"]
         }
     },
     {
@@ -66,17 +46,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Javascript-Simple-Quiz/blob/main/screenshot.png?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/Javascript-Simple-Quiz/index.html",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Javascript-Simple-Quiz",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
-        }
-    },
-    {
-        "tipo": "Front Mentor",
-        "data": {
-            "title": "Time tracking dashboard solution",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-06/raw/main/design/desktop-preview.jpg",
-            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-06/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-06",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox"]
         }
     },
     {
@@ -86,7 +56,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-07/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-07/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-07",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -96,7 +66,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-08/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-08/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-08",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","Mobile-first workflow"]
         }
     },
     {
@@ -106,7 +76,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-10/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-10/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-10",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -116,7 +86,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-11/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-11/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-11",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -126,7 +96,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-12/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-12/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-12",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -136,7 +106,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-13/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-13/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-13",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -146,7 +116,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-14/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-14/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-14",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -156,7 +126,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-16/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-16/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-16",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -166,7 +136,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-17/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-17/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-17",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -176,7 +146,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-18/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-18/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-18",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -186,7 +156,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-19/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-19/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-19",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -196,7 +166,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-20/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-20/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-20",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -206,7 +176,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-21/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-21/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-21",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","css Grid","responsive","Mobile-first workflow"]
         }
     },
     {
@@ -216,7 +186,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Only-CSS-Glass-Effect/raw/main/img/1.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/Only-CSS-Glass-Effect/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Only-CSS-Glass-Effect",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","css Grid"]
         }
     },
     {
@@ -226,17 +196,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Texto-Animado-Javascript/blob/main/img/thumb.png?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/Texto-Animado-Javascript/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Texto-Animado-Javascript",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
-        }
-    },
-    {
-        "tipo": "Front Mentor",
-        "data": {
-            "title": "NFT preview card component",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-22/raw/main/design/desktop-preview.jpg",
-            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-22/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-22",
-            "tags": ["HTML","CSS"]
+            "tags": ["HTML","CSS","Flexbox","responsive","Mobile-first workflow","JAVASCRIPT"]
         }
     },
     {
@@ -246,7 +206,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Formulario-Dinamico-Tarjeta-de-Credito/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/Formulario-Dinamico-Tarjeta-de-Credito/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Formulario-Dinamico-Tarjeta-de-Credito",
-            "tags": ["HTML","CSS","JAVASCRIPT"]
+            "tags": ["HTML","CSS","Flexbox","responsive","Mobile-first workflow","JAVASCRIPT"]
         }
     },
     {
@@ -256,7 +216,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/mi-primer-proyecto-bootstrap5-sass/raw/main/images/screencapture.png",
             "demo": "https://mi-primer-proyecto-bootstrap5-sass.netlify.app/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/mi-primer-proyecto-bootstrap5-sass",
-            "tags": ["HTML","CSS","Bootstrap","Sass","PurgeCSS"]
+            "tags": ["HTML","CSS","CSS Grid","Flexbox","Bootstrap","Sass","PurgeCSS"]
         }
     },
     {
@@ -266,7 +226,37 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login-responsivo/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-login-responsivo/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-login-responsivo",
-            "tags": ["HTML","CSS","Bootstrap"]
+            "tags": ["HTML","CSS","responsive","Flexbox","Bootstrap"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "FAQ accordion card solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-04/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-04/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-04",
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","responsive","Mobile-first workflow"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Tip calculator app solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-05/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-05/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-05",
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","responsive","Mobile-first workflow"]
+        }
+    },
+    {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "Time tracking dashboard solution",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-06/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-06/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-06",
+            "tags": ["HTML","CSS","JAVASCRIPT","Flexbox","css Grid","responsive","Mobile-first workflow","fetch"]
         }
     },
     {
@@ -276,7 +266,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-clon-instagram/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-clon-instagram/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-clon-instagram",
-            "tags": ["HTML","CSS","Bootstrap"]
+            "tags": ["HTML","CSS","responsive","Mobile-first workflow","Flexbox","Bootstrap"]
         }
     },
     {
@@ -286,7 +276,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-web-expertd/raw/main/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/bootstrap5-web-expertd/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/bootstrap5-web-expertd",
-            "tags": ["HTML","CSS","JAVASCRIPT","Bootstrap","Typewriter"]
+            "tags": ["HTML","CSS","responsive","Mobile-first workflow","Flexbox","JAVASCRIPT","Bootstrap","Typewriter"]
         }
     },
     {
@@ -296,7 +286,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-app-crud/raw/gh-pages/static/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-app-crud/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-app-crud",
-            "tags": ["HTML","CSS","responsive","Flexbox","CSS Grid","React"]
+            "tags": ["HTML","CSS","responsive","Mobile-first workflow","Flexbox","CSS Grid","React"]
         }
     },
     {
@@ -360,6 +350,16 @@
         }
     },
     {
+        "tipo": "Front Mentor",
+        "data": {
+            "title": "NFT preview card component",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-22/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-22/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-22",
+            "tags": ["HTML","CSS","Flexbox"]
+        }
+    },
+    {
         "tipo": "Projectos",
         "data": {
             "title": "Generador de Contraseñas con React",
@@ -396,7 +396,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-amozon/raw/gh-pages/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-amozon/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-amozon",
-            "tags": ["HTML","CSS","responsive","react","Flexbox","CSS Grid"]
+            "tags": ["HTML","CSS","responsive","react","Flexbox","CSS Grid","fetch"]
         }
     },
     {
@@ -406,7 +406,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-wordle/raw/gh-pages/static/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-wordle/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-wordle",
-            "tags": ["HTML","CSS","react","Sass","Free Dictionary API.","Flexbox","CSS Grid"]
+            "tags": ["HTML","CSS","react","Sass","Free Dictionary API.","Flexbox","CSS Grid","fetch"]
         }
     },
     {
@@ -436,7 +436,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-giffy/raw/gh-pages/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-giffy/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
-            "tags": ["HTML","CSS","react","Giphy Developers API","bootstrap 5","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+            "tags": ["HTML","CSS","react","Giphy Developers API","fetch","bootstrap 5","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
         }
     },
     {
@@ -446,7 +446,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23/raw/main/design/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-23/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23",
-            "tags": ["HTML","CSS","JAVASCRIPT","responsive","Mobile-first workflow","CSS Grid","Flexbox","API"]
+            "tags": ["HTML","CSS","JAVASCRIPT","responsive","Mobile-first workflow","CSS Grid","Flexbox","API","fetch"]
         }
     },
     {
