@@ -16,6 +16,8 @@ let nums = 0;
 
 const moreTen = document.getElementById("more-10");
 
+const buttonGoUp = document.getElementById("button-go-up");
+
 const changeTheme = (theme) =>{
     if(theme === "light"){
         toggleIcon.src = "assets/icons/moon.svg";
@@ -153,6 +155,22 @@ addEventListener("DOMContentLoaded",()=>{
     })
 
     showProjects();
+
+    addEventListener("scroll",(e)=>{
+        if(window.scrollY >= 1000 && !buttonGoUp.classList.contains("open")){
+            buttonGoUp.classList.add("open");
+        }
+        if(window.scrollY < 1000 && buttonGoUp.classList.contains("open")){
+            buttonGoUp.classList.remove("open")
+        }
+    })
+
+    buttonGoUp.addEventListener("click",()=>{
+        window.scrollTo({
+            top: 0,
+            behavior:"smooth"
+        })
+    })
 })
 
 // LocalStorage
