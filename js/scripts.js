@@ -92,7 +92,7 @@ const createCard = (elements, num1, num2) =>{
         img.src = elements[i].data.image;
         containerIMG.appendChild(img);
         card.appendChild(containerIMG);
-        containerIMG.appendChild(projectTags);
+        card.appendChild(projectTags);
 
         h2.textContent = elements[i].data.title;
         project.appendChild(h2);
@@ -109,6 +109,7 @@ const createCard = (elements, num1, num2) =>{
         project.appendChild(buttons);
 
         card.appendChild(project);
+        card.appendChild(containerIMG);
 
         containerProject.appendChild(card);
     }
@@ -170,6 +171,16 @@ addEventListener("DOMContentLoaded",()=>{
             top: 0,
             behavior:"smooth"
         })
+    })
+
+    // open images
+    containerProject.addEventListener("click",(e)=>{
+        if(e.target.classList.contains("card__image-container")){
+            e.target.classList.toggle("open");
+        }
+        if(e.target.parentNode.classList.contains("card__image-container")){
+            e.target.parentNode.classList.toggle("open");
+        }
     })
 })
 
