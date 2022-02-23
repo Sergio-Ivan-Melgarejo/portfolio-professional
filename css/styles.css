@@ -37,6 +37,7 @@ body{
     color: var(--text-color);
     transition: var(--transition);
     font-family: sans-serif;
+    padding: 0 1em;
 }
 
 /* * dark theme -------------------------- */
@@ -47,9 +48,12 @@ body.dark{
     --bg-card-color: hsl(0, 0%, 20%);
 }
 
-/* * dark theme -------------------------- */
+/* *  -------------------------- */
 
 @media screen and (max-width:720px) {
+    body{
+        padding: 0em;
+    }
     .card--hobbies{
         display: none;
     }
@@ -72,8 +76,12 @@ body.dark{
     margin: auto;
 }
 
-@media screen and (min-width:720px) {
-    .header{padding: 0 1.5em;}
+@media screen and (min-width:721px) {
+    .header{
+        padding: 0 1.5em;
+        border-bottom-left-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
 }
 
 .switches{
@@ -170,7 +178,7 @@ body.dark{
     margin: auto;
 }
 
-@media screen and (min-width:720px) {
+@media screen and (min-width:721px) {
     .main{
         grid-template-columns: min-content 1fr;
         padding: 1em 0;
@@ -189,7 +197,7 @@ body.dark{
     gap: 1em;
 }
 
-@media screen and (min-width:720px) {
+@media screen and (min-width:721px) {
     .column--right{
         display: grid;
         grid-template-columns: 1fr;
@@ -222,7 +230,16 @@ body.dark{
     max-width: 100vw;
 }
 
-/* * card perfil -------------------------- */
+/* * card profile -------------------------- */
+
+
+
+@media screen and (max-width: 721px){
+    .card-profile{
+    max-width: 420px;
+    margin: auto;
+}
+}
 
 .card__image-container{
     overflow: hidden;
@@ -268,8 +285,6 @@ body.dark{
     text-decoration: underline;
     opacity: 1;
 }
-
-
 
 /* * Skills -------------------------- */
 
@@ -407,7 +422,7 @@ body.dark{
     width: 100%;
     height: 100%;
     position: relative;
-    height: 380px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -689,4 +704,26 @@ body.dark{
 
 .footer{
     text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* * Card Error -------------------------- */
+
+.cardError{
+    color: var(--primary-color);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: var(--bg-card-color);
+    border-radius: var(--border-radius);
+    height: min-content;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    animation: apppearButtonGoUp .5s linear forwards;
+}
+
+.one-col{
+    grid-template-columns: 1fr;
 }

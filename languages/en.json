@@ -28,5 +28,11 @@
     "project": {
         "button":"Code",
         "more-10":"Top up 10 more"
+    },
+    "card Error":{
+        "menssage": "the server is not answering, please try again later."
+    },
+    "card no Pages":{
+        "menssage": "There are no Pages."
     }
 }

@@ -7,7 +7,7 @@ const toggleColors = document.getElementById("toggle-colors");
 const rootStyle = document.documentElement.style;
 
 const flagsElement = document.getElementById("flags");
-const textsToChange = document.querySelectorAll(`[data-section]`);
+let textsToChange = document.querySelectorAll(`[data-section]`);
 
 const containerProject = document.getElementById("container--projects");
 
@@ -49,6 +49,41 @@ const changeLanguage = async (language) =>{
 }
 
 const createCard = (elements, num1, num2) =>{
+    // error
+    if(elements === "error"){
+        const cardError = document.createElement("p");
+        cardError.classList.add("cardError");
+
+        if(language === "es") cardError.textContent = "El servidor no responde, por favor intentelo de nuevo mas tarde.";
+        else cardError.textContent = "the server is not answering, please try again later.";
+
+        cardError.setAttribute("data-section","card Error");
+        cardError.setAttribute("data-value","menssage");
+        
+        containerProject.appendChild(cardError);
+        containerProject.classList.add("one-col");
+
+        textsToChange = document.querySelectorAll(`[data-section]`);
+        return
+    }
+    // 0 pages
+    if(elements === "there are no pages"){
+        const cardError = document.createElement("p");
+        cardError.classList.add("cardError");
+
+        if(language === "es") cardError.textContent = "No hay Paginas.";
+        else cardError.textContent = "there are no pages.";
+
+        cardError.setAttribute("data-section","card no Pages");
+        cardError.setAttribute("data-value","menssage");
+        
+        containerProject.appendChild(cardError);
+        containerProject.classList.add("one-col");
+
+        textsToChange = document.querySelectorAll(`[data-section]`);
+        return
+    }
+
     // show 10
     for(let i = num1 ; i < num2 ;i++){
 
@@ -112,16 +147,41 @@ const createCard = (elements, num1, num2) =>{
         card.appendChild(containerIMG);
 
         containerProject.appendChild(card);
+        
+        if(containerProject.classList.contains("one-col")) containerProject.classList.add("one-col");
     }
 }
 
 const showProjects = async () =>{
-    const data = await fetch("../assets/json/data.json");
-    const json = await data.json();
-    dataPages = json.reverse();
+    try {  
+        const url = "../assets/json/data.json";
+        const data = await fetch(url);
 
-    // crea card de project
-    createCard(dataPages, 0, 10);
+        console.log(data);
+        if(data.status === 200 || data.status === 201) { 
+            const json = await data.json();
+            dataPages = json.reverse();
+        }
+        else throw "error";
+
+    } catch (error) {
+        dataPages = error;
+    }
+
+    // crear mensaje de error 
+    if(dataPages === "error"){
+        createCard("error");
+        console.log(1.1)
+        return    
+    }
+
+    // crear mensaje si datos guardados 
+    if(dataPages.length === 0){ 
+        createCard("there are no pages");
+        return
+    }
+    // crear card de project 
+    if(dataPages.length > 0) createCard(dataPages, 0, 10);
 }
 
 addEventListener("DOMContentLoaded",()=>{

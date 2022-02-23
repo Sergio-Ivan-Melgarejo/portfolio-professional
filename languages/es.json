@@ -28,5 +28,11 @@
     "project": {
         "button":"Código",
         "more-10":"Recarga 10 más"
+    },
+    "card Error":{
+        "menssage": "El servidor no responde, por favor intentelo de nuevo mas tarde."
+    },
+    "card no Pages":{
+        "menssage": "No hay Paginas."
     }
 }
