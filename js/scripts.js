@@ -9,10 +9,12 @@ const rootStyle = document.documentElement.style;
 const flagsElement = document.getElementById("flags");
 let textsToChange = document.querySelectorAll(`[data-section]`);
 
-const containerProject = document.getElementById("container--projects");
+let containerProject = document.getElementById("container--projects");
+const cardProject = document.getElementById("card--project");
 
 let dataPages;
 let nums = 0;
+let pagesFilter;
 
 const moreTen = document.getElementById("more-10");
 
@@ -120,6 +122,7 @@ const createCard = (elements, num1, num2) =>{
             span.classList.add("project__tag");
             
             span.textContent = `#${ele}`;
+            span.dataset.filter = ele;
 
             projectTags.appendChild(span);
         })
@@ -157,7 +160,6 @@ const showProjects = async () =>{
         const url = "../assets/json/data.json";
         const data = await fetch(url);
 
-        console.log(data);
         if(data.status === 200 || data.status === 201) { 
             const json = await data.json();
             dataPages = json.reverse();
@@ -171,7 +173,6 @@ const showProjects = async () =>{
     // crear mensaje de error 
     if(dataPages === "error"){
         createCard("error");
-        console.log(1.1)
         return    
     }
 
@@ -182,6 +183,23 @@ const showProjects = async () =>{
     }
     // crear card de project 
     if(dataPages.length > 0) createCard(dataPages, 0, 10);
+}
+
+const filter = async (text) =>{
+    text = text.toLowerCase();
+    pagesFilter = dataPages.filter(element => element.data.tags.join(" ").toLowerCase().includes(text));
+    console.log(pagesFilter);
+
+    containerProject.parentNode.removeChild(containerProject);
+
+    const newContainerProjects = document.createElement("div");
+    newContainerProjects.id = "container--projects";
+    newContainerProjects.classList.add("container--projects");
+    cardProject.appendChild(newContainerProjects);
+
+    containerProject = document.getElementById("container--projects");
+  
+    createCard(pagesFilter, 0, 10);
 }
 
 addEventListener("DOMContentLoaded",()=>{
@@ -212,7 +230,9 @@ addEventListener("DOMContentLoaded",()=>{
 
     moreTen.addEventListener("click",()=>{
         nums += 1;
-        createCard(dataPages,nums * 10, (nums * 10 + 10));
+        if(!pagesFilter) createCard(dataPages,nums * 10, (nums * 10 + 10));
+        if(pagesFilter) createCard(pagesFilter,nums * 10, (nums * 10 + 10));
+       
     })
 
     showProjects();
@@ -233,13 +253,20 @@ addEventListener("DOMContentLoaded",()=>{
         })
     })
 
-    // open images
-    containerProject.addEventListener("click",(e)=>{
+    // open Images and Filter
+    cardProject.addEventListener("click",(e)=>{
+        // Images
         if(e.target.classList.contains("card__image-container")){
             e.target.classList.toggle("open");
         }
         if(e.target.parentNode.classList.contains("card__image-container")){
             e.target.parentNode.classList.toggle("open");
+        }
+
+        // Filter
+        if(e.target.dataset.filter){
+            console.log(e.target.dataset.filter)
+            filter(e.target.dataset.filter);
         }
     })
 })
