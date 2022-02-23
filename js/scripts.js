@@ -19,6 +19,7 @@ let pagesFilter;
 const moreTen = document.getElementById("more-10");
 
 const buttonGoUp = document.getElementById("button-go-up");
+const buttonResect = document.getElementById("button-resect");
 
 const changeTheme = (theme) =>{
     if(theme === "light"){
@@ -90,7 +91,7 @@ const createCard = (elements, num1, num2) =>{
     for(let i = num1 ; i < num2 ;i++){
 
         if(!elements[i]){
-            moreTen.parentNode.removeChild(moreTen);
+            moreTen.classList.add("finished");
             return;
         };
 
@@ -153,6 +154,8 @@ const createCard = (elements, num1, num2) =>{
         
         if(containerProject.classList.contains("one-col")) containerProject.classList.add("one-col");
     }
+
+    if(moreTen.classList.contains("finished")) moreTen.classList.remove("finished");
 }
 
 const showProjects = async () =>{
@@ -188,7 +191,6 @@ const showProjects = async () =>{
 const filter = async (text) =>{
     text = text.toLowerCase();
     pagesFilter = dataPages.filter(element => element.data.tags.join(" ").toLowerCase().includes(text));
-    console.log(pagesFilter);
 
     containerProject.parentNode.removeChild(containerProject);
 
@@ -200,6 +202,9 @@ const filter = async (text) =>{
     containerProject = document.getElementById("container--projects");
   
     createCard(pagesFilter, 0, 10);
+
+    // button Resect
+    buttonResect.classList.add("open");
 }
 
 addEventListener("DOMContentLoaded",()=>{
@@ -265,9 +270,24 @@ addEventListener("DOMContentLoaded",()=>{
 
         // Filter
         if(e.target.dataset.filter){
-            console.log(e.target.dataset.filter)
             filter(e.target.dataset.filter);
         }
+    })
+
+    buttonResect.addEventListener("click",()=>{
+        containerProject.parentNode.removeChild(containerProject);
+
+        const newContainerProjects = document.createElement("div");
+        newContainerProjects.id = "container--projects";
+        newContainerProjects.classList.add("container--projects");
+        cardProject.appendChild(newContainerProjects);
+    
+        containerProject = document.getElementById("container--projects");
+      
+        createCard(dataPages, 0, 10);
+
+        buttonResect.classList.remove("open");
+        pagesFilter = null;
     })
 })
 
@@ -280,6 +300,4 @@ const color = localStorage.getItem("Portfolio-Color");
 rootStyle.setProperty("--primary-color", color);
 
 const language = localStorage.getItem("Portfolio-Language");
-console.log(language)
 if(language !== "en") changeLanguage(language);
-
