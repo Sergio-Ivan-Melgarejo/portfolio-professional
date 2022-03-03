@@ -21,6 +21,8 @@ const moreTen = document.getElementById("more-10");
 const buttonGoUp = document.getElementById("button-go-up");
 const buttonResect = document.getElementById("button-resect");
 
+const loading = document.getElementById("loading");
+
 const changeTheme = (theme) =>{
     if(theme === "light"){
         toggleIcon.src = "assets/icons/moon.svg";
@@ -289,6 +291,9 @@ addEventListener("DOMContentLoaded",()=>{
         buttonResect.classList.remove("open");
         pagesFilter = null;
     })
+
+    // close loading
+    loading.classList.add("close")
 })
 
 // LocalStorage

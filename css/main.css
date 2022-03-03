@@ -1,0 +1,632 @@
+.main{
+    display: grid;
+    padding: 1em;
+    gap: 1em;
+    max-width: 1600px;
+    margin: auto;
+}
+
+@media screen and (min-width:721px) {
+    .main{
+        grid-template-columns: min-content 1fr;
+        padding: 1em 0;
+    }
+}
+
+.column{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.box-1, .box-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+@media screen and (min-width:721px) {
+    .column--right{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content 1fr;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .column--right .card{
+        flex-grow: 1;
+        flex-shrink: 1;
+        justify-content: center;
+    }
+    .column--right .card__image-container{
+        height: 100%;
+        flex-basis: 100px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .column--right img{
+        height: 100%;
+    }
+}
+
+/* * cards -------------------------- */
+
+.card{
+    padding: 1em;
+    background-color: var(--bg-card-color);
+    border-radius: var(--border-radius);
+    max-width: 100vw;
+}
+
+/* * card profile -------------------------- */
+
+
+
+@media screen and (max-width: 721px){
+    .card-profile{
+    max-width: 420px;
+    margin: auto;
+}
+}
+
+.card__image-container{
+    overflow: hidden;
+    border-radius: var(--border-radius);
+}
+
+.card__img-perfil{
+    max-height: 420px;
+    object-fit: cover;
+}
+
+.card__header{
+    padding: 1em 0;
+}
+
+.card__title{
+    margin: 0 0 .5em;
+    font-size: 1.2em;
+}
+
+.project .card__title{
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.card__subtitle{
+    opacity: .8;
+}
+
+.card__link{
+    margin: 0 0 .5em 0;
+    display: flex;
+}
+
+.card__link a{
+    margin-left: .5em;
+    opacity: .7;
+}
+
+.card__link a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/* * Skills -------------------------- */
+
+.skills{
+    padding: 1em 0;
+}
+
+.skill__years-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    opacity: .7;
+}
+
+.skills__header{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
+}
+
+.skills__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.skills__tech{
+    margin: 0;
+    font-size: .8rem;
+    max-width: 150px;
+    min-width: 120px;
+    width: 100%;
+}
+
+.skills__bar,
+.skills__bar::after
+{
+    position: relative;
+    min-width: 175px;
+    height: 8px;
+    background-color: #888;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.skills__bar::after{
+    content: "";
+    position: absolute;
+    left: -175px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.skills__bar--10::after{--skills-bar-length:10%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--20::after{--skills-bar-length:20%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--30::after{--skills-bar-length:30%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--40::after{--skills-bar-length:40%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--50::after{--skills-bar-length:50%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--60::after{--skills-bar-length:60%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--70::after{--skills-bar-length:70%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--80::after{--skills-bar-length:80%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--90::after{--skills-bar-length:90%;animation:skills-bar-fill 2s ease-in-out forwards;}
+.skills__bar--100::after{--skills-bar-length:100%;animation:skills-bar-fill 2s ease-in-out forwards;}
+
+@keyframes skills-bar-fill {
+    0%{
+        transform: translateX(0%);
+        opacity: .2;
+    }
+    100%{
+        transform: translateX(var(--skills-bar-length));
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:720px){
+    .box-1 .card{
+        flex-grow: 1;
+    }
+}
+
+/* * Experience -------------------------- */
+
+.experience{
+    display: flex;
+    align-items: start;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    position: relative;
+}
+
+.experience__image{
+    opacity: .2;
+    color: var(--primary-color);
+    font-size: 2.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.experience__info{
+    z-index: 10;
+}
+
+.experience__job{
+    color: var(--primary-color);
+}
+
+.experience__description{
+    opacity: .6
+}
+
+/* * Project -------------------------- */
+
+.container--projects{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    justify-content: space-between;
+    gap: 1em;
+}
+@media screen and (min-width:1100px){
+    .container--projects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.card--project{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.card--project:hover > .card__image-container{
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    width: 30%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.card--project:hover > .project{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    width: calc(70% - 3em);
+    height: 50%;
+}
+
+.card--project:hover > .project__tags{
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    width: calc(100% - 2em);
+    height: calc(50% - 3em);
+}
+
+.card--project .card__image-container{
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    display: block;
+    cursor: pointer;
+    transition: width .3s, height .3s;
+}
+
+.card--project .card__image-container.open{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    overflow-y: auto;
+    padding: 2em;
+}
+
+.card--project .card__image-container img{
+    background-color: var(--bg-color);
+    object-position: top;
+}
+
+.box-2 .card__image-container img:hover{
+    animation: images 5s infinite linear;
+}
+
+.card--project .card__image-container.open img{
+    display: block;
+    width: 100%;
+    height: max-content;
+    object-fit: fill;
+    animation: none;
+}
+
+@keyframes images {
+    0%{
+        object-position: top;
+    }
+    50%{
+        object-position: bottom;
+    }
+    100%{
+        object-position: top;
+    }
+}
+
+.card--project .project{
+    position: absolute;
+    right: -1em;
+    top: 1em;
+    
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: calc(0% - 3em);
+    height: 50%;
+    background-color: var(--bg-color);
+
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    transition: width .3s, height .3s;
+}
+
+.card--project .buttons{
+    display: flex;
+    gap: 1em;
+    margin-left: auto;
+    width: 100%;
+}
+
+.card--project .button,
+.button-down button{
+    text-align: center;
+    padding: 1em 0;
+    border-radius: var(--border-radius);
+    transition: var(--transition), box-shadow .3s;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.button--primary,
+.button-down button{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.button--ghost,
+.project__tag{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.button--primary:hover,
+.button--ghost:hover,
+.project__tag:hover{
+    background-color: var(--bg-card-color);
+    color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+} 
+
+.card--project .project__tags{
+    position: absolute;
+    right: 1em;
+    bottom: -100%;
+    width: 100%;
+    height: calc(30% - 2em);
+
+    display: flex;
+    gap: 5px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    overflow: hidden;
+
+    transition: all .3s;
+}
+
+.project__tag{
+    background-color: var(--primary-color);
+    padding: .5em 1em;
+    border-radius: var(--border-radius);
+    color: var(--bg-color);
+    transition: var(--transition), box-shadow .3s;
+    cursor: pointer;
+}
+
+/* * container--project -------------------------- */
+
+.container--project{
+    width: 100%;
+    height: 100%;
+}
+
+.box-2{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button-down{
+    position: static;
+    margin: auto 0 0;
+    width: 100%;
+    transition: width 1s;
+    margin: auto;
+    animation: appearReloadButton 1s forwards;
+}
+
+@keyframes appearReloadButton {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.button-down button{
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.button-down.finished{
+    overflow: hidden;
+    animation: finished 1s forwards;
+}
+
+.button-down.finished button{
+    min-width: max-content;
+}
+
+@keyframes finished {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+/* button go up ------------------------ */
+
+.button-go-up,
+.button-resect{
+    font-size: 2.5em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    border: 1px solid var(--bg-card-color);
+    transition: transform .5s ease-in, opacity .3s ease-in, box-shadow 1s ease-in;
+    transform: scale(0);
+    box-shadow:  var(--primary-color) 0px 0px 0px 0em;
+    animation: disapppearButtonGoUp .5s linear forwards;
+}
+
+.button-go-up.open{
+    animation: apppearButtonGoUp .5s linear forwards;
+    behavior: "smooth";
+}
+
+.button-go-up .far,
+.button-resect .fas{
+    padding: 5px;
+    opacity: .2;
+    transition: opacity .3s ease;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.button-go-up:hover > .far,
+.button-resect:hover > .fas{
+    opacity: 1;
+}
+
+@keyframes apppearButtonGoUp {
+    0%{
+        transform: scale(0);
+        box-shadow:  var(--primary-color) 0px 0px 0px 0.001em;
+    }
+    60%{
+        transform: scale(.7);
+        box-shadow:  var(--primary-color) 0px 0px 0px .005em;
+    }
+    80%{
+        transform: scale(.3);
+        box-shadow:  var(--primary-color) 0px 0px 0px .2.5em;
+    }
+    99%{
+        transform: scale(1);
+        box-shadow:  var(--primary-color) 0px 0px 0px .7em;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes disapppearButtonGoUp {
+    0%{
+        transform: scale(1);
+        box-shadow:  var(--primary-color) 0px 0px 0px 0em;
+    }
+    60%{
+        transform: scale(.3);
+        box-shadow:  var(--primary-color) 0px 0px 0px 0em;
+    }
+    80%{
+        transform: scale(.7);
+        box-shadow:  var(--primary-color) 0px 0px 0px 1em;
+    }
+    99%{
+        transform: scale(0);
+        box-shadow:  var(--primary-color) 0px 0px 0px 1.2em;
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+/* button Resect ------------------------ */
+
+.button-resect{
+    bottom: calc(100% - 2em);
+    animation: disapppearButtonResect .5s linear forwards;
+}
+
+.button-resect.open{
+    animation: apppearButtonResect 1s linear forwards;
+}
+
+@keyframes apppearButtonResect {
+    0%{
+        transform: scale(0) rotate(0deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px 0.001em;
+        pointer-events: none;
+    }
+    60%{
+        transform: scale(.7) rotate(270deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px .005em;
+        pointer-events: none;
+    }
+    80%{
+        transform: scale(.3) rotate(220deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px .2.5em;
+        pointer-events: none;
+    }
+    99%{
+        transform: scale(1) rotate(350deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px .7em;
+        pointer-events: none;
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+        pointer-events: all;
+    }
+}
+
+@keyframes disapppearButtonResect {
+    0%{
+        transform: scale(1) rotate(0deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px 0.001em;
+        pointer-events: none;
+    }
+    60%{
+        transform: scale(.3) rotate(270deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px .005em;
+        pointer-events: none;
+    }
+    80%{
+        transform: scale(.7) rotate(220deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px .2.5em;
+        pointer-events: none;
+    }
+    99%{
+        transform: scale(.3) rotate(350deg);
+        box-shadow:  var(--primary-color) 0px 0px 0px .7em;
+        pointer-events: none;
+    }
+    100%{
+        transform: scale(0) rotate(360deg);
+        pointer-events: all;
+    }
+}
+
+.button-resect .fas{
+    transition: opacity .3s ease,transform .3s ease-in-out;
+    transform: rotate(0deg) scale(1);
+}
+
+.button-resect:hover > .fas{
+    transform: rotate(360deg) scale(1.3);
+}
