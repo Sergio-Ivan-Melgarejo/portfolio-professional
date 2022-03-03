@@ -34,5 +34,8 @@
     },
     "card no Pages":{
         "menssage": "No hay Paginas."
+    },
+    "loading":{
+        "text": "Cargando"
     }
 }
