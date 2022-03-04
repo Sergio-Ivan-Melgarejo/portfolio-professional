@@ -60,13 +60,15 @@
 
 /* * card profile -------------------------- */
 
-
-
 @media screen and (max-width: 721px){
     .card-profile{
     max-width: 420px;
     margin: auto;
-}
+    }
+    .card{
+        max-width: 420px;
+        margin: auto;
+    }
 }
 
 .card__image-container{
@@ -442,6 +444,13 @@
     transition: width 1s;
     margin: auto;
     animation: appearReloadButton 1s forwards;
+}
+
+
+@media screen and (max-width:720px){
+    .button-down{
+        max-width: 420px;
+    }
 }
 
 @keyframes appearReloadButton {

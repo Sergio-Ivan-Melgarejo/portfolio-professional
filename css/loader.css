@@ -8,6 +8,7 @@
     box-shadow: 0 0 20vw var(--bg-color) inset;
     z-index: 999;
 }
+
 .loading.close{
     animation: close 1.5s forwards;
     animation-delay: 1s;
@@ -33,7 +34,7 @@
         50%{
             transform: scale(.5);
         }
-        99%{
+        100%{
             transform: scale(.5) translateX(200vw);
         }
     }
