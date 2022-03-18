@@ -13,8 +13,7 @@
     "hobbies": {
         "title":"Hobbies",
         "0-description": "Most of my free time I like to do the Front Mentor challenges.",
-        "1-title": "Reading",
-        "1-description": "In my spare time I spend time reading books.",
+        "1-description": "CodePen is a place where I mainly practice with CSS and build components, and see the creations of the community of programmers.",
         "2-title": "Running",
         "2-description": "Another of my hobbies is running in the squares."
     },
@@ -27,7 +26,8 @@
     },
     "project": {
         "button":"Code",
-        "more-10":"Top up 10 more"
+        "more-10":"Top up 10 more",
+        "alt": "screenshot"
     },
     "card Error":{
         "menssage": "the server is not answering, please try again later."

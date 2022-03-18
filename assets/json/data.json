@@ -458,5 +458,15 @@
             "code":"https://github.com/Sergio-Ivan-Melgarejo/front-mentor-26",
             "tags": ["HTML and CSS","react","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
         }
+    },
+    {
+        "tipo": "Frontend Mentor",
+        "data": {
+            "title": "Advice generator app solution + effect 3D.",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/front-mentor-27/raw/main/design/desktop-preview.jpg",
+            "demo": "https://sergio-ivan-melgarejo.github.io/front-mentor-27/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/front-mentor-27",
+            "tags": ["HTML and CSS","react","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
     }
 ]

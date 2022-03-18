@@ -13,8 +13,7 @@
     "hobbies": {
         "title":"Pasatiempo",
         "0-description": "La mayor parte de mi tiempo libre me gusta hacer los desafíos de Front Mentor.",
-        "1-title": "Lectura",
-        "1-description": "En mi tiempo libre paso tiempo leyendo libros.",
+        "1-description": "CodePen es un lugar donde principalmente practico con CSS y construyo componentes, y veo las creaciones de la comunidad de programadores.",
         "2-title": "Correr",
         "2-description": "Otros de mi pasatiempos es correr en las plazas."
     },
@@ -27,7 +26,8 @@
     },
     "project": {
         "button":"Código",
-        "more-10":"Recarga 10 más"
+        "more-10":"Recarga 10 más",
+        "alt": "captura de pantalla"
     },
     "card Error":{
         "menssage": "El servidor no responde, por favor intentelo de nuevo mas tarde."

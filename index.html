@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sergio Ivan Melgarejo Portfolio">
   <link rel="stylesheet" href="css/styles.css" />
   <title>Portfolio</title>
 
@@ -13,6 +14,19 @@
 </head>
 
 <body class="dark">
+  <!-- Loader -->
+  <div id="loading" class='loading'>
+    <div class="wrapper">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="shadow"></div>
+      <div class="shadow"></div>
+      <div class="shadow"></div>
+      <span data-section="loading" data-value="text">Loading</span>
+    </div>
+  </div>
+
   <!-- header -->
   <header class="header">
     <div class="switches">
@@ -81,6 +95,12 @@
             </a>
           </div>
         </div>
+        <div class="card__link">
+          <i class="fab fa-codepen"></i>
+          <a href="https://codepen.io/sergio-ivan-melgarejo" target="__blank">
+            @Sergio-Ivan-Melgarejo
+          </a>
+        </div>
         <p class="card__text" data-section="profile" data-value="description">
           Programmer, passionate about technology and programming who is looking to learn and grow in this area.
         </p>
@@ -119,10 +139,16 @@
       <div class="card card--hobbies">
         <h2 class="card__title" data-section="hobbies" data-value="title">Hobbies</h2>
         <div class="card__image-container">
-          <img src="./assets/images/reading.jpg" alt="open book in beach">
+          <img src="./assets/images/CodePen.webp" alt="CodePen">
         </div>
-        <h3 class="hobbie__title" data-section="hobbies" data-value="1-title">Reading</h3>
-        <p class="card__text" data-section="hobbies" data-value="1-description">In my spare time I spend time reading books.</p>
+        <h3 class="hobbie__title" >CodePen</h3>
+        <p class="card__text" data-section="hobbies" data-value="1-description">CodePen is a place where I mainly practice with CSS and build components, and see the creations of the community of programmers.</p>
+        <div class="card__link">
+          <i class="fab fa-codepen"></i>
+          <a href="https://codepen.io/sergio-ivan-melgarejo" target="__blank">
+            @Sergio-Ivan-Melgarejo
+          </a>
+        </div>
       </div>
       <div class="card card--hobbies">
         <h2 class="card__title" data-section="hobbies" data-value="title">Hobbies</h2>
@@ -249,19 +275,6 @@
 
   <!-- Project -->
   <footer class="footer card"><span class="experience__job">&copy;</span> sergio ivan melgarejo 2022 </footer>
-
-  <!-- Loader -->
-  <div id="loading" class='loading'>
-    <div class="wrapper">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="shadow"></div>
-      <div class="shadow"></div>
-      <div class="shadow"></div>
-      <span data-section="loading" data-value="text">Loading</span>
-    </div>
-  </div>
 
   <script src="js/scripts.js"></script>
 </body>

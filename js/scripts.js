@@ -131,6 +131,9 @@ const createCard = (elements, num1, num2) =>{
         })
 
         img.src = elements[i].data.image;
+        img.setAttribute("alt",(language === "en" ? "screenshot" : "captura de pantalla"));
+        img.setAttribute("data-value","alt");
+        img.setAttribute("data-section", "project"); 
         containerIMG.appendChild(img);
         card.appendChild(containerIMG);
         card.appendChild(projectTags);

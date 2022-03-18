@@ -104,16 +104,42 @@
 .card__link{
     margin: 0 0 .5em 0;
     display: flex;
+    align-items: center;
 }
 
 .card__link a{
-    margin-left: .5em;
-    opacity: .7;
+    display: inline-block;
+    opacity: .8;
 }
 
 .card__link a:hover{
     text-decoration: underline;
     opacity: 1;
+}
+
+.card__link i{
+    width: 2em;
+}
+
+@media screen and (max-width: 721px){
+    @media screen and (max-width: 721px){
+        .card__link a{
+            width: 100%;
+            text-align: center;
+            padding: 1em;
+            border: 1px solid var(--primary-color);
+            border-radius: 5px;
+            color: var(--primary-color);
+            opacity: .8;
+        }
+    
+        .card__link a:hover{
+            opacity: 1;
+            background-color: var(--bg-card-color);
+            color: var(--primary-color);
+            box-shadow: 0 0 10px var(--primary-color);
+        }
+    }
 }
 
 /* * Skills -------------------------- */
@@ -410,7 +436,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: .9em;
+    font-size: .8em;
     overflow: hidden;
 
     transition: all .3s;
