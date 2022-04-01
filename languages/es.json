@@ -1,26 +1,27 @@
 {
     "profile": {
         "title": "Sergio Ivan Melgarejo",
-        "subtitle": "Desarrollador Front end",
-        "description": "Programador, apasionado por la tecnología y la programación que esta en busca de aprender y crecer en esta área."
+        "subtitle": "Desarrollador Frontend",
+        "description": "Soy desarrollador frontend. Busco especializarme en el Frontend, aunque a futuro planeo avanzar en lado del móvil y backend.",
+        "cv":"Descargar mi CV"
     },
     "experience": {
         "title":"Experiencias",
-        "1-title": "Desarrollador Front End / Desarrollador Web",
+        "1-title": "Desarrollador FrontEnd / Desarrollador Web",
         "1-dates": "Jun 2021 - Actualmente",
-        "1-description": "programador autodidacta, practicas online y presencial."
+        "1-description": "programador autodidacta, con practicas online y presencial."
     },
     "hobbies": {
-        "title":"Pasatiempo",
+        "title":"Pasatiempos",
         "0-description": "La mayor parte de mi tiempo libre me gusta hacer los desafíos de Front Mentor.",
-        "1-description": "CodePen es un lugar donde principalmente practico con CSS y construyo componentes, y veo las creaciones de la comunidad de programadores.",
+        "1-description": "CodePen es un lugar donde principalmente práctico con CSS y construyo componentes, y veo las creaciones de la comunidad de programadores.",
         "2-title": "Correr",
-        "2-description": "Otros de mi pasatiempos es correr en las plazas."
+        "2-description": "Otros de mis pasatiempos es correr en las plazas o al aire libre."
     },
     "skills": {
         "2-title": "Habilidades Personales",
         "spanish": "Español",
-        "english": "Ingles",
+        "english": "Inglés",
         "3-title": "Herramientas",
         "dates": "Años de experiencias"
     },
@@ -30,10 +31,10 @@
         "alt": "captura de pantalla"
     },
     "card Error":{
-        "menssage": "El servidor no responde, por favor intentelo de nuevo mas tarde."
+        "menssage": "El servidor no responde, por favor inténtelo de nuevo más tarde."
     },
     "card no Pages":{
-        "menssage": "No hay Paginas."
+        "menssage": "No hay Páginas."
     },
     "loading":{
         "text": "Cargando"

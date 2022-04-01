@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Sergio Ivan Melgarejo Portfolio">
-  <link rel="stylesheet" href="css/styles.css" />
   <title>Portfolio</title>
-
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/757be4cedc.js" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body class="dark">
@@ -69,6 +69,9 @@
           <h2 class="card__title">Sergio Ivan Melgarejo</h2>
           <p class="card__subtitle" data-section="profile" data-value="subtitle">Front end Developer</p>
         </div>
+        <p class="card__text" data-section="profile" data-value="description">
+            Programmer, passionate about technology and programming who is looking to learn and grow in this area.
+        </p>
         <div class="card__body">
           <div class="card__link">
             <i class="fas fa-envelope icon"></i>
@@ -83,27 +86,40 @@
             </a>
           </div>
           <div class="card__link">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/Sergio-Ivan-Melgarejo" target="__blank">
-              @Sergio-Ivan-Melgarejo
+            <i class="fab fa-linkedin icon"></i>
+            <a href="https://codepen.io/sergio-ivan-melgarejo" target="__blank">
+              Linkedin
             </a>
           </div>
           <div class="card__link">
-            <i class="fas fa-laptop-code"></i>
+            <i class="fab fa-twitter-square icon"></i>
+            <a href="https://twitter.com/SergioIMel" target="__blank">
+              Twitter
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="fab fa-github icon"></i>
+            <a href="https://www.linkedin.com/in/sergio-ivan-melgarejo/" target="__blank">
+              GitHub
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-laptop-code icon"></i>
             <a href="https://www.frontendmentor.io/profile/Sergio-Ivan-Melgarejo" target="__blank">
-              @Sergio-Ivan-Melgarejo
+              Front Mentor
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="fab fa-codepen icon"></i>
+            <a href="https://codepen.io/sergio-ivan-melgarejo" target="__blank">
+              CodePen
             </a>
           </div>
         </div>
-        <div class="card__link">
-          <i class="fab fa-codepen"></i>
-          <a href="https://codepen.io/sergio-ivan-melgarejo" target="__blank">
-            @Sergio-Ivan-Melgarejo
-          </a>
-        </div>
-        <p class="card__text" data-section="profile" data-value="description">
-          Programmer, passionate about technology and programming who is looking to learn and grow in this area.
-        </p>
+        <!-- CV -->
+        <a class="btn-cv button button--primary"  data-section="profile" data-value="cv" href="./assets/pdf/CV.pdf" target="_black" >Download my CV</a>
+        <!-- añadir vercion en ingles -->
+        <!-- <a class="btn-cv button button--primary" href="./assets/pdf/CV.pdf" target="_black" >CV</a> -->
       </article>      
       <!-- Experience -->
       <article class="card card--expeience">
@@ -120,7 +136,7 @@
         </div>
       </article>
       <!-- Hobbies -->
-      <div class="card card--hobbies">
+      <section class="card card--hobbies">
         <h2 class="card__title" data-section="hobbies" data-value="title">Hobbies</h2>
         <div class="card__image-container">
           <img src="./assets/images/front-mentor.jpeg" alt="a man running on the street">
@@ -129,35 +145,35 @@
         <p class="card__text" data-section="hobbies" data-value="0-description">
           Most of my free time I like to do the Front Mentor challenges.
         </p>
-        <div class="card__link">
-          <i class="fas fa-laptop-code"></i>
+        <footer class="card__link">
+          <i class="fas fa-laptop-code icon"></i>
           <a href="https://www.frontendmentor.io/profile/Sergio-Ivan-Melgarejo" target="__blank">
-            @Sergio-Ivan-Melgarejo
+            Front Mentor
           </a>
-        </div>
-      </div>
-      <div class="card card--hobbies">
+        </footer>
+      </section>
+      <section class="card card--hobbies">
         <h2 class="card__title" data-section="hobbies" data-value="title">Hobbies</h2>
         <div class="card__image-container">
           <img src="./assets/images/CodePen.webp" alt="CodePen">
         </div>
         <h3 class="hobbie__title" >CodePen</h3>
         <p class="card__text" data-section="hobbies" data-value="1-description">CodePen is a place where I mainly practice with CSS and build components, and see the creations of the community of programmers.</p>
-        <div class="card__link">
-          <i class="fab fa-codepen"></i>
+        <footer class="card__link">
+          <i class="fab fa-codepen icon"></i>
           <a href="https://codepen.io/sergio-ivan-melgarejo" target="__blank">
-            @Sergio-Ivan-Melgarejo
+            CodePen
           </a>
-        </div>
-      </div>
-      <div class="card card--hobbies">
+        </footer>
+      </section>
+      <section class="card card--hobbies">
         <h2 class="card__title" data-section="hobbies" data-value="title">Hobbies</h2>
         <div class="card__image-container">
           <img src="./assets/images/running.jpg" alt="a man running on the street">
         </div>
         <h3 class="hobbie__title" data-section="hobbies" data-value="2-title">Running</h3>
         <p class="card__text" data-section="hobbies" data-value="2-description">Another of my hobbies is running in the squares.</p>
-      </div>
+      </section>
     </section>
 
     <!-- Box Right -->
@@ -249,6 +265,10 @@
               <p class="skills__tech">Postman</p>
               <div class="skills__bar skills__bar--10"></div>
             </div>
+            <div class="skills__item">
+              <p class="skills__tech">NPM</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
           </div>
         </article>
       </div>
@@ -280,3 +300,6 @@
 </body>
 
 </html>
+
+
+<!-- añadir hover a las habilidades -->

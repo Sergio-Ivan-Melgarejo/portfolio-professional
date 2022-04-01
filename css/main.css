@@ -60,6 +60,10 @@
 
 /* * card profile -------------------------- */
 
+.card-profile{
+    text-align: center;
+}
+
 @media screen and (max-width: 721px){
     .card-profile{
     max-width: 420px;
@@ -85,6 +89,10 @@
     padding: 1em 0;
 }
 
+.card-profile .card__title{
+    font-size: 2em;
+}
+
 .card__title{
     margin: 0 0 .5em;
     font-size: 1.2em;
@@ -97,49 +105,68 @@
     text-transform: uppercase;
 }
 
+.card-profile .card__subtitle{
+    font-size: 1.5em;
+    margin: .2em;
+}
+
 .card__subtitle{
     opacity: .8;
+    font-size: .9em;
+}
+
+.card__text{
+    margin: 0;
+}
+
+.card__body{
+    padding: 2em 0;
 }
 
 .card__link{
     margin: 0 0 .5em 0;
     display: flex;
-    align-items: center;
 }
 
 .card__link a{
     display: inline-block;
-    opacity: .8;
+    text-align: center;
+    width: 100%;
+
+    padding: 1em;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--primary-color);
 }
 
 .card__link a:hover{
-    text-decoration: underline;
-    opacity: 1;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
 }
 
-.card__link i{
-    width: 2em;
-}
-
-@media screen and (max-width: 721px){
-    @media screen and (max-width: 721px){
-        .card__link a{
-            width: 100%;
-            text-align: center;
-            padding: 1em;
-            border: 1px solid var(--primary-color);
-            border-radius: 5px;
-            color: var(--primary-color);
-            opacity: .8;
-        }
+.card__link .icon{
+    margin-right: 5px;
+    font-size: 1em;
     
-        .card__link a:hover{
-            opacity: 1;
-            background-color: var(--bg-card-color);
-            color: var(--primary-color);
-            box-shadow: 0 0 10px var(--primary-color);
-        }
-    }
+    font-size: 2em;
+    border-radius: 5px;
+    width: 2.5em;
+    padding: .3em;
+}
+
+.btn-cv{
+    display: block;
+    border-radius: var(--border-radius);
+    padding: .5em;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+/* * Hobbies -------------------------- */
+
+.card--hobbies .card__text{
+    margin-bottom: 2em;
 }
 
 /* * Skills -------------------------- */
@@ -559,7 +586,7 @@
     }
     80%{
         transform: scale(.3);
-        box-shadow:  var(--primary-color) 0px 0px 0px .2.5em;
+        box-shadow:  var(--primary-color) 0px 0px 0px .25em;
     }
     99%{
         transform: scale(1);
@@ -616,7 +643,7 @@
     }
     80%{
         transform: scale(.3) rotate(220deg);
-        box-shadow:  var(--primary-color) 0px 0px 0px .2.5em;
+        box-shadow:  var(--primary-color) 0px 0px 0px .25em;
         pointer-events: none;
     }
     99%{
@@ -643,7 +670,7 @@
     }
     80%{
         transform: scale(.7) rotate(220deg);
-        box-shadow:  var(--primary-color) 0px 0px 0px .2.5em;
+        box-shadow:  var(--primary-color) 0px 0px 0px .25em;
         pointer-events: none;
     }
     99%{

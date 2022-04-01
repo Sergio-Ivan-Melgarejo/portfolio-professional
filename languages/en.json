@@ -1,21 +1,22 @@
 {
     "profile": {
         "title": "Sergio Ivan Melgarejo",
-        "subtitle": "Front end Developer",
-        "description": "Programmer, passionate about technology and programming who is looking to learn and grow in this area."
+        "subtitle": "Frontend Developer",
+        "description": "I am a frontend developer. I seek to specialize in the Frontend, although in the future I plan to advance in the mobile and backend side.",
+        "cv":"Download my CV"
     },
     "experience": {
         "title":"Experiences",
-        "1-title": "Front End Developer / Web Developer",
+        "1-title": "FrontEnd Developer / Web Developer",
         "1-dates": "Jun 2021 - Current",
-        "1-description": "self-taught programmer, online and face-to-face practices."
+        "1-description": "Self-taught programmer, with online and face-to-face practices."
     },
     "hobbies": {
         "title":"Hobbies",
         "0-description": "Most of my free time I like to do the Front Mentor challenges.",
         "1-description": "CodePen is a place where I mainly practice with CSS and build components, and see the creations of the community of programmers.",
         "2-title": "Running",
-        "2-description": "Another of my hobbies is running in the squares."
+        "2-description": "Another of my hobbies is running in the squares or outdoors."
     },
     "skills": {
         "2-title": "Person Skills",
