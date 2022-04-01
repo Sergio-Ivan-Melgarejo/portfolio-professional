@@ -9,7 +9,7 @@
     margin: auto;
 }
 
-@media screen and (min-width:721px) {
+@media screen and (min-width:781px) {
     .header{
         padding: 0 1.5em;
         border-bottom-left-radius: var(--border-radius);

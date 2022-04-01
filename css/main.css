@@ -6,7 +6,7 @@
     margin: auto;
 }
 
-@media screen and (min-width:721px) {
+@media screen and (min-width:781px) {
     .main{
         grid-template-columns: min-content 1fr;
         padding: 1em 0;
@@ -25,7 +25,7 @@
     gap: 1em;
 }
 
-@media screen and (min-width:721px) {
+@media screen and (min-width:781px) {
     .column--right{
         display: grid;
         grid-template-columns: 1fr;
@@ -64,13 +64,9 @@
     text-align: center;
 }
 
-@media screen and (max-width: 721px){
-    .card-profile{
-    max-width: 420px;
-    margin: auto;
-    }
+@media screen and (max-width: 781px){
     .card{
-        max-width: 420px;
+        max-width: var(--max-width-card);
         margin: auto;
     }
 }
@@ -246,13 +242,23 @@
     }
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:781px){
+    .box-1 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
     .box-1 .card{
         flex-grow: 1;
+        max-width: var(--max-width-card);
+        width: 100%;
     }
 }
 
 /* * Experience -------------------------- */
+
+.card--experiences{
+    width: 100%;
+}
 
 .experience{
     display: flex;
@@ -500,9 +506,9 @@
 }
 
 
-@media screen and (max-width:720px){
+@media screen and (max-width:781px){
     .button-down{
-        max-width: 420px;
+        max-width: var(--max-width-card);
     }
 }
 

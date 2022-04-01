@@ -14,9 +14,7 @@
     "hobbies": {
         "title":"Pasatiempos",
         "0-description": "La mayor parte de mi tiempo libre me gusta hacer los desafíos de Front Mentor.",
-        "1-description": "CodePen es un lugar donde principalmente práctico con CSS y construyo componentes, y veo las creaciones de la comunidad de programadores.",
-        "2-title": "Correr",
-        "2-description": "Otros de mis pasatiempos es correr en las plazas o al aire libre."
+        "1-description": "CodePen es un lugar donde principalmente práctico con CSS y construyo componentes, y veo las creaciones de la comunidad de programadores."
     },
     "skills": {
         "2-title": "Habilidades Personales",

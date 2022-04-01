@@ -6,6 +6,7 @@
     --transition: color .2s, background-color .3s ease-in-out;
     --border-radius: .4em;
     --skills-bar-length: 0%;
+    --max-width-card: 520px;
 }
 
 *{
@@ -50,7 +51,7 @@ body.dark{
 
 /* *  -------------------------- */
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:781px) {
     body{
         padding: 0em;
     }
