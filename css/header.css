@@ -96,3 +96,37 @@
 .colors_item--blue{--primary-color: hsl(214, 84%, 56%);}
 .colors_item--green{--primary-color: hsl(150, 84%, 56%);}
 .colors_item--purple{--primary-color: hsl(278, 84%, 56%);}
+
+/* * h1 - Mesasge -------------------------- */
+
+.h1{
+    position: fixed;
+    top: 5em;
+    left: 0;
+    width: 100%;
+    max-width: 500px;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-size: 1.2em;
+    padding: 1em;
+    z-index: 10;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-100%);
+    animation: h1 ease 5s forwards;
+    animation-delay: 2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@keyframes h1 {
+    0%{}
+    20%, 80%{
+        transform: translate(0);
+        visibility: visible;
+        opacity: 1;
+    }
+    100%{}
+}
