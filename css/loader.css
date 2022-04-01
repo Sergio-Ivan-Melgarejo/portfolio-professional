@@ -37,9 +37,13 @@
         }
         50%{
             transform: scale(.5);
+            opacity: 1;
+            visibility: visible;
         }
         100%{
             transform: scale(.5) translateX(200vw);
+            visibility: hidden;
+            opacity: 0;
         }
     }
 }
