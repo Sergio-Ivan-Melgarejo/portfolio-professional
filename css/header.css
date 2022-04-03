@@ -100,7 +100,7 @@
 /* * h1 - Mesasge -------------------------- */
 
 .h1{
-    position: fixed;
+    position: absolute;
     top: 5em;
     left: 0;
     width: 100%;
