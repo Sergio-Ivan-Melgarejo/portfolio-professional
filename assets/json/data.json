@@ -366,7 +366,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-generador-password/raw/gh-pages/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-generador-password/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-generador-password",
-            "tags": ["HTML and CSS","responsive","Flexbox","CSS Grid","Mobile-first workflow","react"]
+            "tags": ["HTML and CSS","responsive","Flexbox","CSS Grid","Mobile-first workflow","react.js"]
         }
     },
     {
@@ -396,7 +396,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-amozon/raw/gh-pages/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-amozon/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-amozon",
-            "tags": ["HTML and CSS","responsive","react","Flexbox","CSS Grid","fetch"]
+            "tags": ["HTML and CSS","responsive","react.js","Flexbox","CSS Grid","fetch"]
         }
     },
     {
@@ -406,7 +406,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-wordle/raw/gh-pages/static/img/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-wordle/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-wordle",
-            "tags": ["HTML and CSS","react","Sass","API","Flexbox","CSS Grid","fetch"]
+            "tags": ["HTML and CSS","react.js","Sass","API","Flexbox","CSS Grid","fetch"]
         }
     },
     {
@@ -436,7 +436,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-giffy/raw/gh-pages/screencapture.png",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-giffy/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
-            "tags": ["HTML and CSS","react","API","fetch","bootstrap","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+            "tags": ["HTML and CSS","react.js","wouter","API","fetch","bootstrap","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
         }
     },
     {
@@ -456,7 +456,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/front-mentor-26/raw/gh-pages/desktop-preview.jpg",
             "demo": "https://sergio-ivan-melgarejo.github.io/front-mentor-26/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/front-mentor-26",
-            "tags": ["HTML and CSS","react","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+            "tags": ["HTML and CSS","react.js","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
         }
     },
     {
@@ -467,6 +467,16 @@
             "demo": "https://sergio-ivan-melgarejo.github.io/front-mentor-27/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/front-mentor-27",
             "tags": ["HTML and CSS","javascript","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
+            "title": "Bucancy",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-bucancy/blob/master/public/screencapture.png?raw=true",
+            "demo": "https://bucancy.netlify.app/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-bucancy",
+            "tags": ["React.js","react Router v6","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
         }
     }
 ]
