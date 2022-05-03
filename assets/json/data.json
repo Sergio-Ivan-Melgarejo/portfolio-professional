@@ -482,6 +482,16 @@
     {
         "tipo": "Proyect",
         "data": {
+            "title": "Reto React de Alkemy",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/alkemy-01/blob/master/public/screencapture-localhost-3000-2022-05-03-15_51_27.png?raw=true",
+            "demo": "https://alkemy-menu.netlify.app/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/alkemy-01",
+            "tags": ["React.js","react Router v6","Api","axios","sweet alert","login","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap 5"]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
             "title": "100DaysCss (en proceso)(in process)",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/react-100-days-ccs/blob/master/public/screenshot.jpeg?raw=true",
             "demo": "https://100daysofcss.netlify.app/",
