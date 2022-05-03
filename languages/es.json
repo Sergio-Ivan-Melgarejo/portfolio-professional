@@ -2,15 +2,17 @@
     "profile": {
         "title": "Sergio Ivan Melgarejo",
         "subtitle": "Desarrollador Frontend",
-        "description": "Soy desarrollador frontend. Busco especializarme en el Frontend, aunque a futuro planeo avanzar en lado del móvil y backend.",
+        "description": "Soy desarrollador frontend. Actualmente, estoy concentrado en el desarrollo web, a futuro planeo avanzar en lado del móvil y backend.",
         "cv":"Descargar mi CV",
         "h1":"Portafolio de Sergio Ivan Melgarejo"
     },
     "experience": {
         "title":"Experiencias",
-        "1-title": "Freelancer (Desarrollador FrontEnd)",
         "1-dates": "Enero 2022 - Actualmente",
-        "1-description": "Me uní a freelancer para ganar experiencia."
+        "1-description": "Me uní a freelancer para ganar experiencia.",
+        "2-title": "Almacén-Kiosco",
+        "2-dates": "Febrero de 2018 - 2020",
+        "2-description": "Atendí y en un almacén-kiosco a medio tiempo."
     },
     "hobbies": {
         "title":"Pasatiempos",
@@ -22,7 +24,19 @@
         "spanish": "Español",
         "english": "Inglés",
         "3-title": "Herramientas",
-        "dates": "Años de experiencias"
+        "dates": "Años de experiencias",
+        "text-1":"Nativo",
+        "text-2":"accesibilidad",
+        "text-3":"seo en página",
+        "text-4":"diseño adaptativo",
+        "text-5":"transitions",
+        "text-6":"animations",
+        "text-7":"Programación funcional",
+        "text-8":"Programación orientada a objetos",
+        "text-9":"expresiones regulares",
+        "text-10":"asincronía",
+        "text-11":"consumo de API",
+        "text-12":"próximamente"
     },
     "project": {
         "button":"Código",

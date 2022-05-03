@@ -33,7 +33,7 @@
   <header class="header">
     <div class="switches">
       <div id="toggle-theme" class="toggle-theme" data-language="en">
-        <img id="toggle-icon" src="assets/icons/sun.svg" alt="Icon theme" class="toggle-theme__icon">
+        <i id="toggle-icon" class="toggle-theme__icon fas fa-sun"></i>
         <p id="toggle-text" class="toggle-thme__text">Light Mode</p>
       </div>
 
@@ -135,8 +135,18 @@
             <p class="experience__time no-margin" data-section="experience" data-value="1-dates">
               Jun 2021 - Current
             </p>
-            <h3 class="experience__job" data-section="experience" data-value="1-title">Freelancer (Front End Developer)</h3>
+            <h3 class="experience__job">Freelancer (FrontEnd)</h3>
             <p class="experience__description" data-section="experience" data-value="1-description">I joined freelancer to gain experience.</p>
+          </div>
+        </div>
+        <div class="experience">
+          <i class="fas fa-code experience__image"></i>
+          <div class="experience__info">
+            <p class="experience__time no-margin" data-section="experience" data-value="2-dates">
+              February 2018 - 2020
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="2-title">Warehouse-Kiosk</h3>
+            <p class="experience__description" data-section="experience" data-value="2-description">I attended and in a store-kiosk at part-time.</p>
           </div>
         </div>
       </article>
@@ -179,46 +189,156 @@
         <!-- Frontend Skills -->
         <article class="card">
           <h2 class="card__title">Front End</h2>
-          <div class="skill__years-container">
-            <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
-            <div class="skills__header">
-              <span class="skills__start-level">0</span>
-              <span class="skills__start-level">2</span>
-            </div>
-          </div>
           <div class="skills">
+
             <div class="skills__item">
-              <p class="skills__tech">HTML</p>
-              <div class="skills__bar skills__bar--60"></div>
+              <i class="skills__item-icon fab fa-html5"></i>
+              <span class='skills__item-title'>html</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--80"></div>
+              </div>
+              <ul class="skills__item-bottom">
+                <li class="skills__li">HTML 5</li>
+                <li class="skills__li" data-section="skills" data-value="text-2">Accessibility</li>
+                <li class="skills__li" data-section="skills" data-value="text-3">Seo on Page</li>
+              </ul>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">CSS</p>
-              <div class="skills__bar skills__bar--70"></div>
+              <i class="skills__item-icon fab fa-css3-alt"></i>
+              <span class='skills__item-title'>css</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--80"></div>
+              </div>
+              <ul class="skills__item-bottom">
+                <li class="skills__li">css 3</li>
+                <li class="skills__li">flexbox</li>
+                <li class="skills__li">grid</li>
+                <li class="skills__li" data-section="skills" data-value="text-4">responsive design</li>
+                <li class="skills__li" data-section="skills" data-value="text-5">transition</li>
+                <li class="skills__li" data-section="skills" data-value="text-6">animation</li>
+              </ul>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">JavaScript</p>
-              <div class="skills__bar skills__bar--70"></div>
+              <i class="skills__item-icon fab fa-js-square"></i>
+              <span class='skills__item-title'>javascript</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--70"></div>
+              </div>
+              <ul class="skills__item-bottom">
+                <li class="skills__li">+es6</li>
+                <li class="skills__li" data-section="skills" data-value="text-7">Functional Programming</li>
+                <li class="skills__li" data-section="skills" data-value="text-8">Object Oriented Programming</li>
+                <li class="skills__li">dom</li>
+                <li class="skills__li" data-section="skills" data-value="text-9">regular expressions</li>
+                <li class="skills__li">ajax</li>
+                <li class="skills__li" data-section="skills" data-value="text-10">asynchrony</li>
+                <li class="skills__li">json</li>
+                <li class="skills__li" data-section="skills" data-value="text-11">API consumption</li>
+              </ul>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">responsive design</p>
-              <div class="skills__bar skills__bar--60"></div>
+              <i class="skills__item-icon fab fa-react"></i>
+              <span class='skills__item-title'>react</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--60"></div>
+              </div>
+              <ul class="skills__item-bottom">
+                <li class="skills__li">hook</li>
+                <li class="skills__li">context</li>
+                <li class="skills__li">Ruter</li>
+                <li class="skills__li">reducer</li>
+                <li class="skills__li">redux</li>
+                <li class="skills__li">ajax</li>
+                <li class="skills__li" data-section="skills" data-value="text-11">API consumption</li>
+              </ul>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">React</p>
-              <div class="skills__bar skills__bar--50"></div>
+              <i class="skills__item-icon fab fa-bootstrap"></i>
+              <span class='skills__item-title'>Bootstrap</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">Bootstrap</p>
-              <div class="skills__bar skills__bar--40"></div>
+              <i class="skills__item-icon fab fa-sass"></i>
+              <span class='skills__item-title'>sass</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--30"></div>
+              </div>
+              <ul class="skills__item-bottom">
+                <li class="skills__li">scss</li>
+              </ul>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">SASS</p>
-              <div class="skills__bar skills__bar--50"></div>
+              <i class="skills__item-icon fab fa-node-js"></i>
+              <span class='skills__item-title'>node</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="text-12">Coming soon</small>
+                </div>
+                <div class="skills__bar skills__bar--10"></div>
+              </div>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">Node</p>
-              <div class="skills__bar skills__bar--20"></div>
+              <i class="skills__item-icon fab fa-react"></i>
+              <span class='skills__item-title'>React Native</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="text-12">Coming soon</small>
+                </div>
+                <div class="skills__bar skills__bar--10"></div>
+              </div>
             </div>
+
           </div>
         </article>
         <!-- Person Skills -->
@@ -226,46 +346,91 @@
           <h2 class="card__title" data-section="skills" data-value="2-title">Person Skills</h2>
           <div class="skills">
             <div class="skills__item">
-              <p class="skills__tech" data-section="skills" data-value="english">English</p>
-              <div class="skills__bar skills__bar--50"></div>
+              <span class='skills__item-title' data-section="skills" data-value="english">English</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--50"></div>
+              </div>
             </div>
             <div class="skills__item">
-              <p class="skills__tech" data-section="skills" data-value="spanish">Spanish</p>
-              <div class="skills__bar skills__bar--100"></div>
+              <span class='skills__item-title' data-section="skills" data-value="spanish">Spanish</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="text-1">Native</small>
+                </div>
+                <div class="skills__bar skills__bar--100"></div>
+              </div>
             </div>
           </div>
         </article>
         <!-- tool Skills -->
         <article class="card">
           <h2 class="card__title" data-section="skills" data-value="3-title">Tool</h2>
-          <div class="skill__years-container">
-            <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
-            <div class="skills__header">
-              <span class="skills__start-level">0</span>
-              <span class="skills__start-level">2</span>
-            </div>
-          </div>
+
           <div class="skills">
+              
             <div class="skills__item">
-              <p class="skills__tech">GitHub</p>
-              <div class="skills__bar skills__bar--50"></div>
+              <span class='skills__item-title'>GitHub</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--50"></div>
+              </div>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">GitHub Desktop</p>
-              <div class="skills__bar skills__bar--20"></div>
+              <span class='skills__item-title'>GitHub Desktop</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">Visual Studio Code</p>
-              <div class="skills__bar skills__bar--70"></div>
+              <span class='skills__item-title'>Visual Studio Code</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--70"></div>
+              </div>
             </div>
+
             <div class="skills__item">
-              <p class="skills__tech">Postman</p>
-              <div class="skills__bar skills__bar--10"></div>
+              <span class='skills__item-title'>npm</span>
+              <div class="skills__item-top">
+                <div class="skill__years-container">
+                  <small class="card__subtitle" data-section="skills" data-value="dates">Years of experience</small>
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">2</span>
+                  </div>
+                </div>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
             </div>
-            <div class="skills__item">
-              <p class="skills__tech">NPM</p>
-              <div class="skills__bar skills__bar--20"></div>
-            </div>
+
           </div>
         </article>
       </div>

@@ -25,12 +25,12 @@ const loading = document.getElementById("loading");
 
 const changeTheme = (theme) =>{
     if(theme === "light"){
-        toggleIcon.src = "assets/icons/moon.svg";
+        toggleIcon.classList.replace("fa-sun","fa-moon");
         toggleText.textContent == "Light Mode" ? toggleText.textContent = "Dark Mode" : toggleText.textContent ="Modo Noche";
         document.body.classList.remove("dark");
     }
     else{
-        toggleIcon.src = "assets/icons/sun.svg";
+        toggleIcon.classList.replace("fa-moon","fa-sun");
         toggleText.textContent == "Dark Mode" ? toggleText.textContent = "Light Mode" : toggleText.textContent ="Modo Dia";
         document.body.classList.add("dark");
     }
@@ -302,10 +302,10 @@ addEventListener("DOMContentLoaded",()=>{
 // LocalStorage
 
 const theme = localStorage.getItem("Portfolio-Theme");
-if(!document.body.classList.contains(theme)) changeTheme(theme);
+if(!document.body.classList.contains(theme) && theme) changeTheme(theme);
 
 const color = localStorage.getItem("Portfolio-Color");
 rootStyle.setProperty("--primary-color", color);
 
 const language = localStorage.getItem("Portfolio-Language");
-if(language !== "en") changeLanguage(language);
+if(language) changeLanguage(language)
