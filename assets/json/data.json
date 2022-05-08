@@ -403,7 +403,7 @@
         "tipo": "Projectos",
         "data": {
             "title": "WORDLE",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-wordle/raw/gh-pages/static/img/screencapture.png",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/wordle.png?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/react-wordle/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-wordle",
             "tags": ["HTML and CSS","react.js","Sass","API","Flexbox","CSS Grid","fetch"]
@@ -413,7 +413,7 @@
         "tipo": "Frontend Mentor",
         "data": {
             "title": "Blogr landing page solution",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-25/raw/main/design/desktop-preview.jpg",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/front-mentor-25.jpg?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-25/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-25",
             "tags": ["HTML and CSS","javascript","responsive","Mobile-first workflow","Flexbox","CSS Grid"]
@@ -423,27 +423,17 @@
         "tipo": "Frontend Mentor",
         "data": {
             "title": "Space tourism website solution",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-15/raw/main/preview.jpg",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/front-mentor-15.jpg?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-15/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-15",
             "tags": ["HTML and CSS","javascript","responsive","multi-page","Fetch","Mobile-first workflow","CSS Grid","Flexbox"]
         }
     },
     {
-        "tipo": "Proyect",
-        "data": {
-            "title": "APP Giffy v1.1",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-giffy/raw/gh-pages/screencapture.png",
-            "demo": "https://sergio-ivan-melgarejo.github.io/react-giffy/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
-            "tags": ["HTML and CSS","react.js","wouter","API","fetch","bootstrap","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
-        }
-    },
-    {
         "tipo": "Front Mentor",
         "data": {
             "title": "REST Countries API with color theme switcher",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23/raw/main/design/desktop-preview.jpg",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/front-mentor-23.jpg?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/Front-Mentor-23/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/Front-Mentor-23",
             "tags": ["HTML and CSS","JAVASCRIPT","responsive","Mobile-first workflow","CSS Grid","Flexbox","API","fetch"]
@@ -453,7 +443,7 @@
         "tipo": "Frontend Mentor",
         "data": {
             "title": "Rock, Paper, Scissors",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/front-mentor-26/raw/gh-pages/desktop-preview.jpg",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/front-mentor-26.jpg?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/front-mentor-26/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/front-mentor-26",
             "tags": ["HTML and CSS","react.js","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
@@ -463,7 +453,7 @@
         "tipo": "Frontend Mentor",
         "data": {
             "title": "Advice generator app solution + effect 3D.",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/front-mentor-27/raw/main/design/desktop-preview.jpg",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/front-mentor-27.jpg?raw=true",
             "demo": "https://sergio-ivan-melgarejo.github.io/front-mentor-27/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/front-mentor-27",
             "tags": ["HTML and CSS","javascript","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
@@ -473,7 +463,7 @@
         "tipo": "Proyect",
         "data": {
             "title": "Bucancy",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-bucancy/blob/master/public/screencapture.png?raw=true",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/bucancy.png?raw=true",
             "demo": "https://bucancy.netlify.app/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-bucancy",
             "tags": ["React.js","react Router v6","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
@@ -483,20 +473,30 @@
         "tipo": "Proyect",
         "data": {
             "title": "Reto React de Alkemy",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/alkemy-01/blob/master/public/screencapture-localhost-3000-2022-05-03-15_51_27.png?raw=true",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/alkemy-01.png?raw=true",
             "demo": "https://alkemy-menu.netlify.app/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/alkemy-01",
-            "tags": ["React.js","react Router v6","Api","axios","sweet alert","login","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap 5"]
+            "tags": ["React.js","react Router v6","Api","axios","sweet alert","login","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap"]
         }
     },
     {
         "tipo": "Proyect",
         "data": {
-            "title": "100DaysCss (en proceso)(in process)",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/react-100-days-ccs/blob/master/public/screenshot.jpeg?raw=true",
+            "title": "APP Giffy v1.1 (en progreso/in process)",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/giffy.png?raw=true",
+            "demo": "https://react-giffy.netlify.app/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
+            "tags": ["HTML and CSS","react.js","wouter","API","fetch","bootstrap","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
+            "title": "100DaysCss (en orogreso/in process)",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/100dayofcss.jpeg?raw=true",
             "demo": "https://100daysofcss.netlify.app/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-100-days-ccs",
-            "tags": ["React.js","react Router v6","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap 5"]
+            "tags": ["React.js","react Router v6","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap"]
         }
     }
 ]

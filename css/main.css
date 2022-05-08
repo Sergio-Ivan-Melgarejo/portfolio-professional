@@ -196,9 +196,8 @@
 /* primary box */
 .skills__item{
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
     padding: .5em;
     margin-bottom: .5em;
     border-radius: 5px;
@@ -215,7 +214,8 @@
 
 .skills__item-icon{
     color: var(--bg-color);
-    font-size: 3em;
+    font-size: 2.5em;
+    display: block;
     margin-right: .3em;
     transition: color .5s ease-out, background-color .5s ease-out;
 }
@@ -227,6 +227,7 @@
     color: var(--text-color);
     transition: color .5s ease-out;
     font-size: 1.2em;
+    text-align: center;
 }
 
 /* sub-boxes */
