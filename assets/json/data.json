@@ -482,6 +482,16 @@
     {
         "tipo": "Proyect",
         "data": {
+            "title": "FreeCodeCamp - Portfolio",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/FreeCodeCamp%20-%20Portfolio.jpeg?raw=true",
+            "demo": "https://codepen.io/sergio-ivan-melgarejo/pen/mdXVoom",
+            "code":"https://codepen.io/sergio-ivan-melgarejo/pen/mdXVoom",
+            "tags": ["HTML and CSS","Javascript","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
             "title": "APP Giffy v1.1 (en progreso / in process)",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/giffy.png?raw=true",
             "demo": "https://react-giffy.netlify.app/",

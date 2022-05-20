@@ -8,7 +8,9 @@
     },
     "experience": {
         "title":"Experiences",
-        "1-dates": "Jan 2021 - Current",
+        "0-dates": "May 2021 - Current",
+        "0-description": "I joined Alkemy to increase my professional skills with React and teamwork.",
+        "1-dates": "Jan 2022 - Current",
         "1-description": "I joined freelancer to gain experience.",
         "2-title": "Warehouse-Kiosk",
         "2-dates": "February 2018 - 2020",

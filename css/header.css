@@ -31,12 +31,14 @@
     width: 130px;
     gap: 1em;
     border-radius: var(--border-radius);
-    transition: var(--transition);
+    transition: var(--transition), border-color .3s ease-in;
     border: 1px solid var(--bg-color);
 }
 
 .toggle-theme:hover{
     background-color: var(--bg-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .toggle-theme__icon{

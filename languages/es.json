@@ -8,6 +8,8 @@
     },
     "experience": {
         "title":"Experiencias",
+        "0-dates": "Mayo 2022 - Actualmente",
+        "0-description": "Me uní a Alkemy para aumentar mis habilidades profesionales con React y el trabajo en equipo.",
         "1-dates": "Enero 2022 - Actualmente",
         "1-description": "Me uní a freelancer para ganar experiencia.",
         "2-title": "Almacén-Kiosco",
