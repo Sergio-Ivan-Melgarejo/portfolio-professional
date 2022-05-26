@@ -466,7 +466,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/bucancy.png?raw=true",
             "demo": "https://bucancy.netlify.app/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-bucancy",
-            "tags": ["React.js","react Router v6","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+            "tags": ["React.js","react Router","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
         }
     },
     {
@@ -476,7 +476,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/alkemy-01.png?raw=true",
             "demo": "https://alkemy-menu.netlify.app/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/alkemy-01",
-            "tags": ["React.js","react Router v6","Api","axios","sweet alert","login","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap"]
+            "tags": ["React.js","react Router","Api","axios","sweet alert","login","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap"]
         }
     },
     {
@@ -487,6 +487,16 @@
             "demo": "https://codepen.io/sergio-ivan-melgarejo/pen/mdXVoom",
             "code":"https://codepen.io/sergio-ivan-melgarejo/pen/mdXVoom",
             "tags": ["HTML and CSS","Javascript","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
+            "title": "Alkeflix",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/skill-up-react-1.jpeg?raw=true",
+            "demo": "https://alkeflix.netlify.app/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/skill-up-react-1",
+            "tags": ["HTML and CSS","react.js","react Router","API","Axios","responsive","Mobile-first workflow","CSS Grid","Flexbox","sweet alert"]
         }
     },
     {
@@ -506,7 +516,7 @@
             "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/100dayofcss.jpeg?raw=true",
             "demo": "https://100daysofcss.netlify.app/",
             "code":"https://github.com/Sergio-Ivan-Melgarejo/react-100-days-ccs",
-            "tags": ["React.js","react Router v6","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap"]
+            "tags": ["React.js","react Router","Api","fetch","responsive","Mobile-first workflow","CSS Grid","Flexbox","bootstrap"]
         }
     }
 ]
