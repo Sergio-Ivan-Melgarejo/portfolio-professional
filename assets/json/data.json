@@ -492,6 +492,16 @@
     {
         "tipo": "Proyect",
         "data": {
+            "title": "APP Giffy v1.1 (en progreso / in process)",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/giffy.png?raw=true",
+            "demo": "https://react-giffy.netlify.app/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
+            "tags": ["HTML and CSS","react.js","wouter","API","fetch","bootstrap","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+        }
+    },
+    {
+        "tipo": "Proyect",
+        "data": {
             "title": "Alkeflix",
             "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/skill-up-react-1.jpeg?raw=true",
             "demo": "https://alkeflix.netlify.app/",
@@ -502,11 +512,11 @@
     {
         "tipo": "Proyect",
         "data": {
-            "title": "APP Giffy v1.1 (en progreso / in process)",
-            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/giffy.png?raw=true",
-            "demo": "https://react-giffy.netlify.app/",
-            "code":"https://github.com/Sergio-Ivan-Melgarejo/react-giffy",
-            "tags": ["HTML and CSS","react.js","wouter","API","fetch","bootstrap","responsive","Mobile-first workflow","CSS Grid","Flexbox"]
+            "title": "GoScrum",
+            "image": "https://github.com/Sergio-Ivan-Melgarejo/imagenes/blob/main/GoScrum.png?raw=true",
+            "demo": "https://sergio-ivan-melgarejo.github.io/skill-up-react-2/",
+            "code":"https://github.com/Sergio-Ivan-Melgarejo/skill-up-react-2",
+            "tags": ["HTML and CSS","react.js","react Router","API","fetch","Unit test","responsive","Mobile-first workflow","CSS Grid","Flexbox","Formik","Yup","sweet alert","redux","skeleton"]
         }
     },
     {
